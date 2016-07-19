@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/side_nav_bar"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mert.pokemongoelkitabi.kurulumActivity"
+    tools:showIn="@layout/app_bar_kurulum">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android için\n\n Oyunu android işletim sistemli telefonunuza indirmek için APK dosyasını indirmeniz gerekiyor. Bu dosyayı bilgisayarınıza indirerek usb kablosu aracılığıyla telefonunuza atabilir veya direkt olarak aşağıdaki linklerden telefonunuza indirebilirsiniz. Dosyayı bilgisayara indirmek için APKPure.com gibi bir apk sitesine girip 58.1 MB dosya boyutuna sahip olan Pokemon GO nun APK dosyasını bilgisayarınıza indirmeniz gerekli. Sonrasında telefonunuza atarak kullanabilirsiniz. \n
+
+        İki şekilde de dosyayı indirmeden önce telefonunuzun yabancı kaynaklardan yapılan indirmelere açık olduğundan emin olmanız gerekiyor. Bunun için izlemeniz gereken adımlar “Ayarlar” -> “Güvenlik”-> “Bilinmeyen Kaynaklar->. Bilinmeyen kaynakları açtığınız zaman dosyayı indirebilir ve kullanabilirsiniz. Oyunu kurduktan sonra bu seçeneği kapatmanız bir sorun yaratmaz.
+Apk dosyasını indirebileceğiniz birden fazla site var. Direkt olarak telefona indirmek için kullanabileceğiniz linklerden bazıları: \n
+-https://apkpure.com/pok%C3%A9mon-go/com.nianticlabs.pokemongo\n
+-http://www.mediafire.com/download/ic5d4sbdxx3682r/com.nianticlabs.pokemongo_0.29.2.apk\n
+Not: Pokemon GO Türkiye için resmi olarak hizmete sunulmadığı için uygulamayı her uygulama gibi Google play store dan indiremiyoruz. Uygulama yaratıcılarının APK gibi sürümlerin telefona zarar verebileceği yönündeki uyarılarını aklınızda tutmak isteyebilirsiniz. \n
+       \nIOS 1\n\n
+       1)	Ayarlar menüsünden iTunes ve Appstore seçeneğine girerek “apple kimliğini göster” butonuna basın. \n
+       2)	Karşınıza çıkan Ülke/Bölge(Country/Region) seçeneğinden oyunun şu an resmi olarak çıktığı Avustralya veya Yeni Zelanda gibi ülkelerden birini seçin. \n
+       3)	Oyunu indirin.\n
+       \nIOS 2 \n\n
+       1)	Safari tarayıcınızdan http://ios.hipstore.mobi/app/Pokemon-GO/1000007852 linkini açın. \n
+       2)	Pokemon Go'yu indir seçeneğine girin ve iOS 7-8-9 seçeneğine dokunun. \n
+       3)	“app.rezcdn.com, 'Hipstore' yüklemek istiyor” uyarısını gördüğünüz zaman  'Yükle'ye basarak devam edin. \n
+       4)	H logosuna sahip uygulamayı indirin.\n
+       5)	Uygulama indikten sonra 'Güvenilir olmayan kurumsal geliştirici' uyarısı çıkacak. Vazgeç'e basın ve  Ayarlar -> Genel -> Profiller ve Aygıt Yönetimi seçeneğine girin. “Taz Trading” ile başlayan seçeneğe tıklayıp 'Güven'e basın. \n
+       6)	HiP4U uygulamasını açabilirsiniz. \n
+      \n IOS 3 \n\n
+       •	App Store hesabınızdan çıkış yapmanız gerekli. App store-> kimlik -> çıkış yap.\n
+       •	Safari üzerinden “Pokemon GO”yu aratın ve App Store linkine tıklayın.\n
+       •	'Mağazanızda yok' uyarısıyla karşılaşınca 'Geç' diyin ve Yeni Zelanda'ya geçin.\n
+       •	'Çıkış Yap' dediğiniz yerden yeni bir hesap açın. 'None' seçeneği çıkmazsa direkt olarak uygulama 'Get' diyip hesap açmanız gerekiyor. Yeni Zelanda üzerinden hesap açtıktan sonra şu posta kodlarından birini kullanabilirsiniz: 0112, 0110, 0310, 0520, 0410.\n
+       •	Ödeme seçeneklerinde 'None' seçip diğer bilgileri istediğiniz şekilde doldurarak oyunu indirin. İşlem bitince çıkış yapıp tekrar hesabınıza geçebilirsiniz\n
+
+
+
+
+        "
+            />
+
+</ScrollView>
+

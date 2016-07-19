@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kurulum"
+            android:title="Kurulum"
+            android:icon="@mipmap/ic_kullanim"
+            />
+        <item
+            android:id="@+id/oyun"
+            android:icon="@mipmap/ic_fare"
+            android:title="Nasıl Oynanır" />
+        <item
+            android:id="@+id/pokemon"
+            android:title="Pokedex"
+            android:icon="@mipmap/ic_pokemon"
+            />
+        <item
+            android:id="@+id/terim"
+            android:icon="@mipmap/ic_terim"
+            android:title="Terim Sözlüğü" />
+    </group>
+
+
+
+</menu>

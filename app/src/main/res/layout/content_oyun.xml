@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mert.pokemongoelkitabi.Oyun"
+    android:background="@drawable/side_nav_bar"
+    tools:showIn="@layout/app_bar_oyun">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Kaydolma"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="   oyuna giriş yapabilmek için kayıt oluşturmak gerekmiyor. Pokemon Go konumunuzu Google Maps haritası üzerinden aldığı için herhangi bir Google hesabına sahip olmanız yeterli. Google hesabı ile giriş yaptıktan sonra profesörün kısa bilgilendirmesinin ardından karakter yaratma bölümüne geliniyor. Burada erkek veya kadın seçiminizi yapmanız gerekiyor. Seçiminizi aşağıdaki gibi yaptıktan sonra kıyafet, göz, şapka, çanta ve benzeri dış görünüşünüzü değiştirip hazır hale gelebilirsiniz."
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/oykaydol" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ana Ekran"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="    Ekranın sol altında karakter adınız ve seviyeniz bulunur. üzerine tıkladığınızda sahip olduğunuz XP miktarı, pokecoinleriniz, oyuna başlama tarihiniz, seçtiğiniz takım (Level 5'den sonra) ve pokemon topladıkça kazandığınız bazı rozetleri görebilirsiniz. orta kısımda menülere açılan poketopu simgesi bulunmaktadır. Bu simgeye tıklayarak pokedex, shop ve pokemona ulaşabilirsiniz. Pokedex, oyundaki pokemonları,  sizin yakaladıklarınızı, özelliklerini ve hangi pokemonla kaç kere karşılaştığınızı gösteirir. Shop, oyunda satın almaları yaptığınız  yerdir. Pokemon kısmı ise yakalanan pokemonların görüldüğü, yumurtaların saklandığı yerdir. Stardustlarınız ile pokemonlarınızı Evolve edebilir, Power Up yapıp geliştirebilir veya profesöre Transfer yapabilirsiniz. Elinizde olan bir pokemondan her yakaladığınızda 100 Stardust kazanırsınız. Bir pokemonu geliştirebilmek için yanında belirtilen miktar kadar Stardust'a ve pokemon candy'sine ihtiyaç duyacaksınız. Candy, her pokemon yakaladığınızda veya profesöre transfer ettiğinizde elde edilen şeker miktarıdır. Candy'ler pokemon yakaladığınızda, elinizde birden fazla olan pokemonlardan birini profesöre gönderdiğinizde (1 adet) veya -genellikle çok miktarda- yumurtalardan çıkan pokemonlardan kazanılır.
+                \n\n
+    Transfer butonu ise elinizdeki pokemondan 1den fazla var ise profesöre bir candy karşılığında transfer etmenizi sağlar. \n\n
+    Sağ altta ise yakın çevrenizdeki pokemonları görebililirsiniz. pokemonların altında 3 adım varsa size uzak olduğunu, 2 adım varsa yaklaştığınızı, 1 adım varsa çok yakınında olduğunuzu gösterir.
+
+                "
+                android:id="@+id/textView5" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@drawable/oyan"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Takımlar"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="    5. levele ulaştıktan sonra takım seçiliyor. Oyunda 3 takım var; sarı, kırmızı ve mavi. \n    Sarı Takım: Elektiriği çağrıştıran takım iç güdülerine güvenerek asla kaybetmeyeceğini savunuyor. logosu: Zapdos\n    Mavi Takım: Team Mystic lideri Blanche pokemon evrimi üzerine çalışıyor ve asla kaybetmeyeceklerini söylüyor.  Logosu: Articuno\n    Kırmızı Takım: Team Valor , Candela asıl önemli olanın eğitim ve mutlak güçten geçtiğini düşünmekte. Logosu: Efsanevi Moltres"
+                android:id="@+id/textView7"
+                android:singleLine="false" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/oytak"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pokemon Yakalama"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="    Haritada kendinizi gördüğünüzde hareket etmeniz gerekiyor (gerçekten yürüyerek). Etrafta bir pokemon belirdiğinde telefon bir titreşim yolluyor. Görmüş olduğunuz pokemonun üzerine tıklamalısınız. \n  Tıkladığınız pokemonu yakalamak iki şekilde gerçekleşiyor. Birincisi kameranız açılıyor ve kameranın gördüğü mesafede pokemon sanki gördüğünüz yerdeymiş gibi görünüyor. Oyunu gerçekçi hale getirse de bu seçenek şarj tüketen bir seçenek.\n   İkinci seçenek için ekranın üstünde yer alan “AR” tuşuna basarak normal moda dönebilirsiniz. Bu moda basarak animasyon üzerinden ilerliyorsunuz. Üstelik eğer hava karanlıksa oyun da gece oluyor, gündüzse güneşli bir şekilde pokemon yakalıyorsunuz. "
+                android:id="@+id/textView9" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:src="@drawable/oypok"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Yerler"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pokestoplar:"
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="    Pokestoplar, haritada mavi olarak görünen, poke topları ve yumurta alınabilen duraklardır. Aynı pokestopa birden fazla defa gidilebilir ve top ile yumurta toplanabilir.  Pokestoplardan yararlanamayacak kadar uzak olduğunuzda “this pokestop is too far away” uyarısı alırsınız. Pokestoptan yararlanılabilinecek mesafeye gelindiğinde mavi yer işaretinin şekli değişir.  "
+                android:id="@+id/textView12" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/oyer"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gym:"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="    Gym&apos;ler savaş alanlarıdır. Level 5 olduktan sonra Mavi (Mystick), Kırmızı (Valor) veya Sarı (Instinct) takımlardan birini seçtiğinizde karşı takımların Gym&apos;lerine takım arkadaşlarınızla birlikte saldırabilir, savunma ve saldırı stratejileri geliştirebilirsiniz. Kendi takımınızın rengine bürünmüş bir gymi savunmanız, farklı takımların GYM&apos;lerini ele geçirmeye çalışmanız amaçlanır. "
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="    Gym’i savunmak: Kendi takımınıza ait bir GYM&apos;e gidin. Eğer gym aktif ise sol altta “+” işareti görünür. Bu durumda gyme girebilirsiniz. Eğer aktif değil ise sağ alt köşede training(eğitim) yapmalısınız.  Gym’i verimli kullanabilmek için gymde bulunan  pokemonların türlerini ve yeteneklerini bilmek gerekir. eğitim yaparken yendiğiniz her pokemondan XP ve GYM Prestige&apos;i kazanırsınız. Bu hem GYM leveline hem de sizin levelinize katkı sağlar. \n    Yüksek prestij puanına sahip olmak GYMin güçlü olduğunu gösterir. Diğer takımların o GYM i ele geçirmesi zorlaşır. Eğit,m düşman takımlarla savaşmalarla aynıdır ve Sadece 1 pokemon kullanılabilir.  Unutmayın; pokemonunuz sizin takımınızdan birinin gym&apos;ini savunurken yaralanabilir. GYM Sizin oyuncu levelınızı yükseltirken, pokemon levelınızı yükseltmeye yardımcı olmaz. \n    GYM savunmak Defender bonus denilen bir puan kazandırır. Her 20 saatte bir bu bonusu toplayabilirsiniz. bu bonus; PokeCoins ve Stardust olarak gelir.\n      Gym ele geçirmek: Başka takıma ait bir gymi ele geçirmek için meydan okunabilir. GYM Yenmek prestij puanını düşürür. Eğer GYM Prestij puanı yeterince düşerse orayı savunan takımın oyuncusu GYM&apos;den atılır ve artık o GYM&apos;de siz hak elde edebilirsiniz. Eğer gym daha önceden hiç sahiplenilmediyse yine aynı şekilde boş gözükür yani direkt savaşmadan alabilirsiniz. "
+                android:id="@+id/textView15" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- uygulama veya Activity ye uygulanacak tema -->
+    <style name="OzelActionBarTemasi"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar" tools:targetApi="ice_cream_sandwich">
+        <item name="android:actionBarStyle">@style/OzelActionBarStili</item>
+    </style>
+
+    <!-- Action Bar stili -->
+    <style name="OzelActionBarStili"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse" tools:targetApi="ice_cream_sandwich">
+        <item name="android:background">@drawable/side_nav_bar</item>
+    </style>
+</resources>

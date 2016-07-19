@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pokemon GO El Kitabi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kurulum">kurulumActivity</string>
+    <string name="title_activity_oyun">Oyun</string>
+    <string name="title_activity_terimler">Terimler</string>
+    <string name="title_activity_pokemon_activiy">PokemonActiviy</string>
+
+    <array name="isim">
+        <item>Bulbasaur</item>
+        <item>Ivysaur</item>
+    </array>
+
+
+</resources>
