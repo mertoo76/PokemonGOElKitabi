@@ -1,6 +1,7 @@
 package com.example.mert.pokemongoelkitabi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,10 +14,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class kurulumActivity extends AppCompatActivity
+
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    TextView tx1,tx2,txb1,txb2,txb3,txb4,tx3,tx4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +32,36 @@ public class kurulumActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
+//fontları bu bölümde ekledim -----------------------------
+        Typeface face2= Typeface.createFromAsset(getAssets(),"PokemonSolid.ttf");
 
+
+        txb1=(TextView)findViewById(R.id.textView58);
+        txb2=(TextView)findViewById(R.id.textView60);
+        txb3=(TextView)findViewById(R.id.textView62);
+
+        txb4=(TextView)findViewById(R.id.textView64);
+
+
+        txb1.setTypeface(face2);
+        txb2.setTypeface(face2);
+        txb3.setTypeface(face2);
+        txb4.setTypeface(face2);
+
+//-----------------------------------
+
+
+
+
+        //  reklam ekleme banner---------------
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest); //adView i yüklüyoruz
+
+        /*if (adView != null) {
+            adView.resume(); // reklamı başlatır
+        }*/
+//--------------------------------------------
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);

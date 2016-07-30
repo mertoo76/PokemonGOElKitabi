@@ -1,6 +1,7 @@
 package com.example.mert.pokemongoelkitabi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,16 +14,91 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    TextView txA,txB,txKur,txOy,txpok,txter;
+    private List<String> isimler = new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        LinearLayout linearLayout,pokedex,oyun,terim;
+        isimler.add("Kurulum");
+        isimler.add("Nasıl Oynanır?");
+        isimler.add("Pokedex");
+        isimler.add("Terimler Sözlüğü");
+
+        Typeface face= Typeface.createFromAsset(getAssets(),"PokemonSolid.ttf");
+        txA=(TextView)findViewById(R.id.textView56);
+        txB=(TextView)findViewById(R.id.textView57);
+        txKur=(TextView)findViewById(R.id.isim);
+        txOy=(TextView)findViewById(R.id.isim2);
+        txpok=(TextView)findViewById(R.id.isim3);
+        txter=(TextView)findViewById(R.id.isim4);
+        txA.setTypeface(face);
+        txB.setTypeface(face);
+        txKur.setTypeface(face);
+        txOy.setTypeface(face);
+        txpok.setTypeface(face);
+        txter.setTypeface(face);
+
+        linearLayout=(LinearLayout)findViewById(R.id.linear);
+        oyun=(LinearLayout)findViewById(R.id.oyun);
+        pokedex=(LinearLayout)findViewById(R.id.pokedex);
+        terim=(LinearLayout)findViewById(R.id.terimler);
+
+
+//  reklam ekleme banner---------------
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+      AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest); //adView i yüklüyoruz
+
+        /*if (adView != null) {
+            adView.resume(); // reklamı başlatır
+        }*/
+//--------------------------------------------
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),kurulumActivity.class);
+                startActivity(i);
+            }
+        });
+        pokedex.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),PokemonActiviy.class);
+                startActivity(i);
+            }
+        });
+
+        oyun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),Oyun.class);
+                startActivity(i);
+            }
+        });
+        terim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),Terimler.class);
+                startActivity(i);
+            }
+        });
+
 
       /*  FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +109,8 @@ public class MainActivity extends AppCompatActivity
             }
         });*/
 
+
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -42,6 +120,9 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+
+
+
 
     @Override
     public void onBackPressed() {

@@ -17,16 +17,19 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class PokemonActiviy extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
+    SharedPreferences sharedPreferences,sharedPreferences1,sharedPreferences2;
+    SharedPreferences.Editor editor,editor1,editor2;
     private List<String> isimler = new ArrayList<String>();
-    private String[] bilgi={"1","2","3"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,16 @@ public class PokemonActiviy extends AppCompatActivity
         setContentView(R.layout.activity_pokemon_activiy);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //  reklam ekleme banner---------------
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest); //adView i yüklüyoruz
+
+        /*if (adView != null) {
+            adView.resume(); // reklamı başlatır
+        }*/
+//--------------------------------------------
 
         isimler.add("1-)Bulbasaur");
         isimler.add("2-)Ivysaur");
@@ -113,13 +126,75 @@ public class PokemonActiviy extends AppCompatActivity
         isimler.add("74-)Geodude");
         isimler.add("75-)Graveler");
         isimler.add("76-)Golem");
-        isimler.add("77-)Ponyta");
+        isimler.add("77-)Ponyta");//*
         isimler.add("78-)Rapidash");
         isimler.add("79-)Slowpoke");
         isimler.add("80-)Slowbro");
+        isimler.add("81-)Magnemite");
+        isimler.add("82-)Magneton");
+        isimler.add("83-)Farfetch'd");
+        isimler.add("84-)Doduo");
+        isimler.add("85-)Dodrio");
+        isimler.add("86-)Seel");
+        isimler.add("87-)Dewgong");
+        isimler.add("88-)Grimer");
+        isimler.add("89-)Muk");
+        isimler.add("90-)Shellder");
+        isimler.add("91-)Cloyster");
+        isimler.add("92-)Gastly");
+        isimler.add("93-)Haunter");
+        isimler.add("94-)Gengar");
+        isimler.add("95-)Onix");
+        isimler.add("96-)Drowzee");
+        isimler.add("97-)Hypno");
+        isimler.add("98-)Krabby");
+        isimler.add("99-)Kingler");
+        isimler.add("100-)Voltorb");
+        isimler.add("101-)Electrode");
+        isimler.add("102-)Exeggcute");
+        isimler.add("103-)Exeggutor");
+        isimler.add("104-)Cubone");
+        isimler.add("105-)Marowak");
+        isimler.add("106-)Hitmonlee");
+        isimler.add("107-)Hitmonchan");
+        isimler.add("108-)Lickitung");
+        isimler.add("109-)Koffing");
+        isimler.add("110-)Weezing");
+        isimler.add("111-)Ryhorn");
+        isimler.add("112-)Rhydon");
+        isimler.add("113-)Chansey");
+        isimler.add("114-)Tangela");
+        isimler.add("115-)Kangaskhan");
+        isimler.add("116-)Horsea");
+        isimler.add("117-)Seadra");
+        isimler.add("118-)Goldeen");
+        isimler.add("119-)Seaking");
+        isimler.add("120-)Staryu");
+        isimler.add("121-)Starmie");
+        isimler.add("122-)Mr.Mime");
+        isimler.add("123-)Scyther");
+        isimler.add("124-)Jynx");
+        isimler.add("125-)Electabuzz");
+        isimler.add("126-)Magmar");
+        isimler.add("127-)Pinsir");
+        isimler.add("128-)Tauros");
+        isimler.add("129-)Magikarp");
+        isimler.add("130-)Gyarados");
+        isimler.add("131-)Lapras");
+        isimler.add("132-)Ditto");
+        isimler.add("133-)Eevee");
+        isimler.add("134-)Vaporeon ");
+        isimler.add("135-)Jolteon");
+        isimler.add("136-)Flareon\n\n\n\n\n");
+
+
 
         sharedPreferences= getSharedPreferences("bilgi",MODE_PRIVATE);
+        sharedPreferences1= getSharedPreferences("position",MODE_PRIVATE);
+        sharedPreferences2= getSharedPreferences("isim",MODE_PRIVATE);
         editor=sharedPreferences.edit();
+        editor1=sharedPreferences1.edit();
+        editor2=sharedPreferences2.edit();
 
         final ListView listemiz = (ListView) findViewById(R.id.liste);
         OzelAdapter adaptorumuz=new OzelAdapter(this, isimler);
@@ -144,9 +219,23 @@ public class PokemonActiviy extends AppCompatActivity
             Intent i = new Intent(getApplicationContext(),Bilgi.class);
         yazi ya= new yazi();
             String yolla =ya.getBilgi(position);
-            //editor.putString("bilgi",bilgi[position]);
+            // bilgi ekranında pokem fotorafını görmek için position bilgisini yolluyorum positiona göre fotoyu Bilgi.java dosyasında seçiyorum
+            editor1.putInt("position",position);
+            editor1.commit();
+
+
+            // pokemon ismini bilgi ekranın yazdırmak için yolluyorum.
+
+            String pokeIsim=isimler.get(position);
+            editor2.putString("isim",pokeIsim);
+            editor2.commit();
+
+
+            // pokemon bilgilerini yolluyorum.
             editor.putString("bilgi",yolla);
             editor.commit();
+
+
             startActivity(i);
         }
 
@@ -169,7 +258,7 @@ public class PokemonActiviy extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.pokemon_activiy, menu);
+        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 

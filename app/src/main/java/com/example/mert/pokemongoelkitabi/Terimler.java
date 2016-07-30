@@ -1,6 +1,7 @@
 package com.example.mert.pokemongoelkitabi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,17 +14,77 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class Terimler extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+TextView tx1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terimler);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+// fontları bu bölümde ekledim ----------------------------------
+        Typeface face1= Typeface.createFromAsset(getAssets(),"terim.ttf");
+        tx1=(TextView)findViewById(R.id.textView16);
+        tx1.setTypeface(face1);
+    TextView tx2=(TextView)findViewById(R.id.textView18);
+            tx2.setTypeface(face1);
+        TextView tx3=(TextView)findViewById(R.id.textView20);
+        tx3.setTypeface(face1);
+        TextView tx4=(TextView)findViewById(R.id.textView22);
+        tx4.setTypeface(face1);
+        TextView tx5=(TextView)findViewById(R.id.textView24);
+        tx5.setTypeface(face1);
+        TextView tx6=(TextView)findViewById(R.id.textView26);
+        tx6.setTypeface(face1);
+        TextView tx7=(TextView)findViewById(R.id.textView28);
+        tx7.setTypeface(face1);
+        TextView tx8=(TextView)findViewById(R.id.textView30);
+        tx8.setTypeface(face1);
+        TextView tx9=(TextView)findViewById(R.id.textView32);
+        tx9.setTypeface(face1);
+        TextView tx10=(TextView)findViewById(R.id.textView34);
+        tx10.setTypeface(face1);
+        TextView tx11=(TextView)findViewById(R.id.textView36);
+        tx11.setTypeface(face1);
+        TextView tx12=(TextView)findViewById(R.id.textView38);
+        tx12.setTypeface(face1);
+        TextView tx13=(TextView)findViewById(R.id.textView40);
+        tx13.setTypeface(face1);
+        TextView tx14=(TextView)findViewById(R.id.textView42);
+        tx14.setTypeface(face1);
+        TextView tx15=(TextView)findViewById(R.id.textView44);
+        tx15.setTypeface(face1);
+        TextView tx16=(TextView)findViewById(R.id.textView46);
+        tx16.setTypeface(face1);
+        TextView tx17=(TextView)findViewById(R.id.textView48);
+        tx17.setTypeface(face1);
+        TextView tx18=(TextView)findViewById(R.id.textView50);
+        tx18.setTypeface(face1);
+        TextView tx19=(TextView)findViewById(R.id.textView52);
+        tx19.setTypeface(face1);
+        TextView tx20=(TextView)findViewById(R.id.textView54);
+        tx20.setTypeface(face1);
 
+//---------------------------------------------------------------
+
+
+
+
+        //  reklam ekleme banner---------------
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest); //adView i yüklüyoruz
+
+        /*if (adView != null) {
+            adView.resume(); // reklamı başlatır
+        }*/
+//--------------------------------------------
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);

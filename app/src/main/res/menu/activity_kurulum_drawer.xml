@@ -14,7 +14,7 @@
         <item
             android:id="@+id/pokemon"
             android:title="Pokedex"
-            android:icon="@mipmap/ic_pokemon"
+            android:icon="@mipmap/ic_pokemoni"
             />
         <item
             android:id="@+id/terim"
