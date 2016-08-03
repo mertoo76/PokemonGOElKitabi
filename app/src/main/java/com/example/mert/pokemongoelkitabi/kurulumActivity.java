@@ -78,6 +78,8 @@ public class kurulumActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
+            Intent i = new Intent(getApplicationContext(),MainActivity.class);
+            startActivity(i);
             super.onBackPressed();
         }
     }
