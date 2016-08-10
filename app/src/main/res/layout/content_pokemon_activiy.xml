@@ -11,7 +11,7 @@
     android:background="@drawable/side_nav_bar"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.mert.pokemongoelkitabi.PokemonActiviy"
+    tools:context="mert.pokemongoelkitabi.mert.pokemongoelkitabi.PokemonActiviy"
     tools:showIn="@layout/app_bar_pokemon_activiy">
 
     <ListView
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:adUnitId="ca-app-pub-5677978125129640/7501373011"
         ads:adSize="BANNER"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
