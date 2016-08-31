@@ -47,6 +47,19 @@ public class kurulumActivity extends AppCompatActivity
         txb4.setTypeface(face2);
 
 //-----------------------------------
+// textleri işlediğim yer
+
+TextView kurulum1 = (TextView)findViewById(R.id.textView59);
+        String tmp1 = getString(R.string.kurulumbir);
+        kurulum1.setText("      "+ tmp1);
+
+        /*TextView kurulum2 = (TextView)findViewById(R.id.textView61);
+        String tmp2 = getString(R.string.kurulumiki);
+        kurulum2.setText(""+ tmp2);*/
+
+
+
+//
 
 
 

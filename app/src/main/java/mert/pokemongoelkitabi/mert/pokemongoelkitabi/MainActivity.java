@@ -1,6 +1,7 @@
 package mert.pokemongoelkitabi.mert.pokemongoelkitabi;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
@@ -12,8 +13,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -21,6 +26,7 @@ import mert.pokemongoelkitabi.mert.pokemongoelkitabi.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -30,6 +36,15 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+     // dil destği bölümü
+        Locale locale = Locale.getDefault(); // Sayfayı yüklemeden önce default locale alıyoruz ve sayfayı ona göre yüklüyoruz.
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config,
+                getBaseContext().getResources().getDisplayMetrics());
+//
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -57,6 +72,53 @@ public class MainActivity extends AppCompatActivity
         oyun=(LinearLayout)findViewById(R.id.oyun);
         pokedex=(LinearLayout)findViewById(R.id.pokedex);
         terim=(LinearLayout)findViewById(R.id.terimler);
+
+
+        // dil desteği
+
+        ImageView b1 = (ImageView) findViewById(R.id.imageButton);
+        ImageView b2 = (ImageView) findViewById(R.id.imageButton2);
+
+        b1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+
+                Locale locale = new Locale("en");  //locale en yaptık. Artık değişkenler values-en paketinden alınacak
+                Locale.setDefault(locale);
+                Configuration config = new Configuration();
+                config.locale = locale;
+                getBaseContext().getResources().updateConfiguration(config,
+                        getBaseContext().getResources().getDisplayMetrics());
+                finish();//mevcut acivity i bitir.
+                startActivity(getIntent());//activity i baştan yükle
+
+            }
+        });
+
+        b2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // TODO Auto-generated method stub
+                Locale locale = new Locale(""); //locale i default locale yani türkçe yaptık. Artık değişkenler values paketinden alınacak
+                Locale.setDefault(locale);
+                Configuration config = new Configuration();
+                config.locale = locale;
+                getBaseContext().getResources().updateConfiguration(config,
+                        getBaseContext().getResources().getDisplayMetrics());
+                finish();//mevcut acivity i bitir.
+                startActivity(getIntent());//activity i baştan yükle
+
+
+            }
+        });
+
+
+        //
+
 
 
 //  reklam ekleme banner---------------

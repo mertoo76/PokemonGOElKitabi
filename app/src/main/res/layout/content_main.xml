@@ -44,8 +44,41 @@ tools:showIn="@layout/app_bar_main">
     android:layout_gravity="center_horizontal" />
 
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"></LinearLayout>
 
-<LinearLayout
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="49dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/dil"
+            android:textColor="#660033"
+            android:id="@+id/textView66" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:src="@mipmap/eng"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:src="@mipmap/turk"
+            />
+    </LinearLayout>
+
+    <LinearLayout
     android:paddingTop="100dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -64,7 +97,8 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textColor="#660033"
-        android:text="       Kurulum"
+        android:text="@string/title_activity_kurulum"
+        android:layout_marginLeft="70dp"
         android:id="@+id/isim"
         android:paddingTop="11dp" />
 
@@ -89,7 +123,8 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="wrap_content"
         android:textColor="#660033"
         android:textSize="20dp"
-        android:text="       Nasıl Oynanır"
+        android:text="@string/title_activity_oyun"
+        android:layout_marginLeft="70dp"
         android:id="@+id/isim2"
         android:paddingTop="10dp" />
 
@@ -114,7 +149,8 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="wrap_content"
         android:textColor="#660033"
         android:textSize="20dp"
-        android:text="       Pokédex"
+        android:text="@string/title_activity_pokemon_activiy"
+        android:layout_marginLeft="70dp"
         android:id="@+id/isim3"
         android:paddingTop="10dp" />
 
@@ -138,7 +174,8 @@ tools:showIn="@layout/app_bar_main">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#660033"
-        android:text="      Terimler Sözlügü"
+        android:text="@string/title_activity_terimler"
+        android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:id="@+id/isim4"
         android:paddingTop="11dp" />

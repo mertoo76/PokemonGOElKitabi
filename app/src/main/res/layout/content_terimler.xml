@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Achievement(Başarı)"
+            android:text="@string/terimbaslikbir"
             android:id="@+id/textView16"
             android:textColor="#660033"
             />
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Oyunda yerine getirilen görevler sonucunda rozet alırsınız. Bu rozetler profilinizde görünür. "
+            android:text="@string/terimbir"
             android:id="@+id/textView17" />
 
         <TextView
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemonların yaptığı güçlü saldırı çeşididir. Savaşta yeteri kadar stamina(gücünüz) var ise ekrana basılı tuttuğunuzda aktifleşen saldırı çeşididir. "
+            android:text="@string/terimiki"
             android:id="@+id/textView19" />
 
         <TextView
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemonun savunma ve saldırı özelliklerini gösteren savaş puanıdır. Pokemonun gücünü gösterir. "
+            android:text="@string/terimuc"
             android:id="@+id/textView21" />
 
         <TextView
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemonun yenilmesi için alması gereken hasar miktarıdır."
+            android:text="@string/terimdort"
             android:id="@+id/textView23" />
 
         <TextView
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Savaş esnasında saldırıdan hasar almadan kurtulmayı ifade eder. "
+            android:text="@string/terimbes"
             android:id="@+id/textView25" />
 
         <TextView
@@ -118,7 +118,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemonun evrimleşmesidir. evrimleşen pokemon’un CP’si ve istatistikleri artar."
+            android:text="@string/terimalti"
             android:id="@+id/textView27" />
 
         <TextView
@@ -134,7 +134,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Deneyim puanlarıdır. Yaptığınız aktiviteler sonucu pokemon yakalamak vs) artar ve seviye atlamanızı sağlar. "
+            android:text="@string/terimyedi"
             android:id="@+id/textView29" />
 
         <TextView
@@ -150,7 +150,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemon yakalayabilmek için ihtiyacınız olan eşyalardır. Eğer Poke toplarınız biterse Pokemon yakalayamazsınız."
+            android:text="@string/terimsekiz"
             android:id="@+id/textView31" />
 
         <TextView
@@ -166,7 +166,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Etrafınızdaki yerlerde genellikler merkezi yerlerde (heykel, müze, meydan, camii gibi) oyunu haritasında mavi daire şeklinde görünen duraklardır. Bu duraklar ücretsiz Poke topları, Pokemon yumurtaları ve diğer eşyalar verir. "
+            android:text="@string/terimdokuz"
             android:id="@+id/textView33" />
 
         <TextView
@@ -182,7 +182,7 @@
             android:textColor="#660033"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemon para birimidir."
+            android:text="@string/terimon"
             android:id="@+id/textView35" />
 
         <TextView
@@ -198,7 +198,7 @@
             android:textColor="#660033"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    5. Seviyeye ulaşıldığında gerçek oyuncularla mücadele etmek için gidilen arenalardır."
+            android:text="@string/terimonbir"
             android:id="@+id/textView37" />
 
         <TextView
@@ -206,7 +206,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#660033"
-            android:text="Pokemon Yumurtaları"
+            android:text="@string/terimbaslikiki"
             android:id="@+id/textView38" />
 
         <TextView
@@ -214,7 +214,7 @@
             android:textColor="#660033"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Poke Stoplarda bulunan ve içinden pokemon çıkan yumurtalardır. Yumurtalar alındıktan sonra çatlamaları için egg incubatorlara konulup belirli bir mesafe yürümek gerekir."
+            android:text="@string/terimoniki"
             android:id="@+id/textView39" />
 
         <TextView
@@ -230,7 +230,7 @@
             android:textColor="#660033"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Yakaladığınız, karşılaştığınız pokemonlara ve pokemonların özelliklerine ulaşabileceğiniz yerdir."
+            android:text="@string/terimonuc"
             android:id="@+id/textView41" />
 
         <TextView
@@ -246,7 +246,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemon yakaladıkça ya da transfer ettikçe kazanılır. Her Pokemonun, kendi ismine özel Candysi vardır. Pokemonları güçlendirmek ve evrimleştirmek (evolve) için kullanılır."
+            android:text="@string/terimondort"
             android:id="@+id/textView43" />
 
         <TextView
@@ -262,7 +262,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemon yakaladıkça ya da transfer ettikçe kazanırsınız. Stardust tüm pokemonlar için ortaktır."
+            android:text="@string/terimonbes"
             android:id="@+id/textView45" />
 
         <TextView
@@ -278,7 +278,7 @@
             android:textColor="#660033"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Gymlerde savaşan ve yaralanan Pokemonları iyileştirir. 3 türü vardır: Normal Potion 20 HP iyileştirir, Super Potion 50 HP iyileştirir, Hyper Potion 200 HP iyileştirir."
+            android:text="@string/terimonalti"
             android:id="@+id/textView47" />
 
         <TextView
@@ -294,7 +294,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Savaşlarda rakip takım tarafından baygın düşürülmüş Pokemonları canlandırır. Poke Stoplarda bulunur."
+            android:text="@string/terimonyedi"
             android:id="@+id/textView49" />
 
         <TextView
@@ -310,7 +310,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Etrafta Pokemon bulma olasılığınızı arttırır. PokeCoinlerle satın alınabilir."
+            android:text="@string/terimonsekiz"
             android:id="@+id/textView51" />
 
         <TextView
@@ -326,7 +326,7 @@
             android:layout_height="wrap_content"
             android:textColor="#660033"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Zor yakalanan bir pokemonu yakalama şansını arttıran meyvelerdir. "
+            android:text="@string/terimondokuz"
             android:id="@+id/textView53" />
 
         <TextView
@@ -342,7 +342,7 @@
             android:textColor="#660033"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="    Pokemon yumurtalarını koyup, siz yürüdükçe onların kırılmaya hazır hale gelmesini sağlayan eşyalardır. Aynı anda sadece 1 yumurta üzerinde kullanabilir, sınırsız sayıda kullanabilirsiniz. Seviye atladıkça 3 kullanımlık Egg Incubatorlar ile aynı anda birkaç yumurta açabilirsiniz. Oyuna 1 taneyle başlanır.\n\n\n\n"
+            android:text="@string/terimyirmi"
             android:id="@+id/textView55" />
     </LinearLayout>
 

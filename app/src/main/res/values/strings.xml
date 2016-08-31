@@ -3,17 +3,548 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="dil">Dil Seçiniz:</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_kurulum">kurulumActivity</string>
-    <string name="title_activity_oyun">Oyun</string>
-    <string name="title_activity_terimler">Terimler</string>
-    <string name="title_activity_pokemon_activiy">PokemonActiviy</string>
+    <string name="title_activity_kurulum">Kurulum</string>
+    <string name="title_activity_oyun">Nasıl Oynanır</string>
+    <string name="title_activity_terimler">Terimler Sözlügü</string>
+    <string name="title_activity_pokemon_activiy">Pokedex</string>
 
-    <array name="isim">
-        <item>Bulbasaur</item>
-        <item>Ivysaur</item>
-    </array>
+    <string name="kurulumbir" formatted="false"> Oyunu android işletim sistemli telefonunuza indirmek için APK dosyasını indirmeniz gerekiyor. Bu dosyayı bilgisayarınıza indirerek usb kablosu aracılıgıyla telefonunuza atabilir veya direkt olarak aşagıdaki linklerden telefonunuza indirebilirsiniz. Dosyayı bilgisayara indirmek için APKPure.com gibi bir apk sitesine girip 58.1 MB dosya boyutuna sahip olan Pokemon GO\'nun APK dosyasını bilgisayarınıza indirmeniz gerekli. Sonrasında telefonunuza atarak kullanabilirsiniz. \n\n      \t İki şekilde de dosyayı indirmeden önce telefonunuzun yabancı kaynaklardan yapılan indirmelere açık oldugundan emin olmanız gerekiyor. Bunun için izlemeniz gereken adımlar “Ayarlar” -> “Güvenlik”-> “Bilinmeyen Kaynaklar”. Bilinmeyen kaynakları açtıgınız zaman dosyayı indirebilir ve kullanabilirsiniz. Oyunu kurduktan sonra bu seçenegi kapatmanız bir sorun yaratmaz.  Apk dosyasını indirebileceginiz birden fazla site var. Direkt olarak telefona indirmek için kullanabileceginiz linklerden bazıları:  \n  -https://apkpure.com/pok%C3%A9mon-go/com.nianticlabs.pokemongo\n  -http://www.mediafire.com/download/ic5d4sbdxx3682r/com.nianticlabs.pokemongo_0.29.2.apk\n\n     Not: Pokemon GO Türkiye için resmi olarak hizmete sunulmadıgı için uygulamayı her uygulama gibi Google play store’dan indiremiyoruz. Uygulama yaratıcılarının APK gibi sürümlerin telefona zarar verebilecegi yönündeki uyarılarını aklınızda tutmak isteyebilirsiniz.</string>
+    <string name="kurulumiki">  \t\t1)	Ayarlar menüsünden iTunes ve Appstore seçenegine girerek “apple kimligini göster” butonuna basın. \n\n \t\t2)	Karşınıza çıkan Ülke/Bölge(Country/Region) seçeneginden oyunun şu an resmi olarak çıktıgı Avustralya veya Yeni Zelanda gibi ülkelerden birini seçin. \n\n         \t\t3)	Oyunu indirin.</string>
+    <string name="kurulumuc">  \t\t1)	Safari tarayıcınızdan http://ios.hipstore.mobi/app/Pokemon-GO/1000007852 linkini açın. \n\n      \t\t2)	Pokemon Go\'yu indir seçenegine girin ve iOS 7-8-9 seçenegine dokunun.\n\n       \t\t3)	“app.rezcdn.com, \'Hipstore\' yüklemek istiyor” uyarısını gördügünüz zaman  \'Yükle\'ye basarak devam edin. \n\n      \t\t4)	H logosuna sahip uygulamayı indirin.\n\n       \t\t5)	Uygulama indikten sonra \'Güvenilir olmayan kurumsal geliştirici\' uyarısı çıkacak. Vazgeç\'e basın ve  Ayarlar -> Genel -> Profiller ve Aygıt Yönetimi seçenegine girin. “Taz Trading” ile başlayan seçenege tıklayıp \'Güven\'e basın. \n\n       \t\t6)	HiP4U uygulamasını açabilirsiniz.</string>
+    <string name="kurulumdort">  \t\t1)    App Store hesabınızdan çıkış yapmanız gerekli. App store-> kimlik -> çıkış yap.\n\n       \t\t2) 	Safari üzerinden “Pokemon GO”yu aratın ve App Store linkine tıklayın.\n\n      \t\t3)	\'Magazanızda yok\' uyarısıyla karşılaşınca \'Geç\' diyin ve Yeni Zelanda\'ya geçin.\n\n       \t\t4)	\'Çıkış Yap\' dediginiz yerden yeni bir hesap açın. \'None\' seçenegi çıkmazsa direkt olarak uygulama \'Get\' diyip hesap açmanız gerekiyor. Yeni Zelanda üzerinden hesap açtıktan sonra şu posta kodlarından birini kullanabilirsiniz: 0112, 0110, 0310, 0520, 0410.\n\n       \t\t5)	Ödeme seçeneklerinde \'None\' seçip diger bilgileri istediginiz şekilde doldurarak oyunu indirin. İşlem bitince çıkış yapıp tekrar hesabınıza geçebilirsiniz. \n\n\n\n</string>
+    <string name="oyunbaslikbir">Kaydolma</string>
+    <string name="oyunbir">                              \t\t   Oyuna giriş yapabilmek için kayıt oluşturmak gerekmiyor. Pokemon Go konumunuzu Google Maps haritası üzerinden aldığı için herhangi bir Google hesabına sahip olmanız yeterli. Google hesabı ile giriş yaptıktan sonra profesörün kısa bilgilendirmesinin ardından karakter yaratma bölümüne geliniyor. Burada erkek veya kadın seçiminizi yapmanız gerekiyor. Seçiminizi aşağıdaki gibi yaptıktan sonra kıyafet, göz, şapka, çanta ve benzeri dış görünüşünüzü değiştirip hazır hale gelebilirsiniz.</string>
+    <string name="oyunbaslikiki">Ana Ekran</string>
+    <string name="oyuniki">  \t\t   Ekranın sol altında karakter adınız ve seviyeniz bulunur. üzerine tıkladığınızda sahip olduğunuz XP miktarı, pokecoinleriniz, oyuna başlama tarihiniz, seçtiğiniz takım (Level 5\'den sonra) ve pokemon topladıkça kazandığınız bazı rozetleri görebilirsiniz. orta kısımda menülere açılan poketopu simgesi bulunmaktadır. Bu simgeye tıklayarak pokedex, shop ve pokemona ulaşabilirsiniz. Pokedex, oyundaki pokemonları,  sizin yakaladıklarınızı, özelliklerini ve hangi pokemonla kaç kere karşılaştığınızı gösteirir. Shop, oyunda satın almaları yaptığınız  yerdir. Pokemon kısmı ise yakalanan pokemonların görüldüğü, yumurtaların saklandığı yerdir. Stardustlarınız ile pokemonlarınızı Evolve edebilir, Power Up yapıp geliştirebilir veya profesöre Transfer yapabilirsiniz. Elinizde olan bir pokemondan her yakaladığınızda 100 Stardust kazanırsınız. Bir pokemonu geliştirebilmek için yanında belirtilen miktar kadar Stardust\'a ve pokemon candy\'sine ihtiyaç duyacaksınız. Candy, her pokemon yakaladığınızda veya profesöre transfer ettiğinizde elde edilen şeker miktarıdır. Candy\'ler pokemon yakaladığınızda, elinizde birden fazla olan pokemonlardan birini profesöre gönderdiğinizde (1 adet) veya -genellikle çok miktarda- yumurtalardan çıkan pokemonlardan kazanılır.
+                \n\n
+    \t\t   Transfer butonu ise elinizdeki pokemondan 1den fazla var ise profesöre bir candy karşılığında transfer etmenizi sağlar. \n\n
+    \t\t   Sağ altta ise yakın çevrenizdeki pokemonları görebililirsiniz. pokemonların altında 3 adım varsa size uzak olduğunu, 2 adım varsa yaklaştığınızı, 1 adım varsa çok yakınında olduğunuzu gösterir.
+</string>
+
+    <string name="oyunbaslikuc">Takımlar</string>
+    <string name="oyunuc"> \t\t   5. levele ulaştıktan sonra takım seçiliyor. Oyunda 3 takım var; sarı, kırmızı ve mavi. \n    \tSarı Takım: Elektiriği çağrıştıran takım iç güdülerine güvenerek asla kaybetmeyeceğini savunuyor. logosu: Zapdos\n    \tMavi Takım: Team Mystic lideri Blanche pokemon evrimi üzerine çalışıyor ve asla kaybetmeyeceklerini söylüyor.  Logosu: Articuno\n    \tKırmızı Takım: Team Valor , Candela asıl önemli olanın eğitim ve mutlak güçten geçtiğini düşünmekte. Logosu: Efsanevi Moltres</string>
+    <string name="oyunbaslikdort">Pokemon Yakalama</string>
+    <string name="oyundort">\t\t    Haritada kendinizi gördüğünüzde hareket etmeniz gerekiyor (gerçekten yürüyerek). Etrafta bir pokemon belirdiğinde telefon bir titreşim yolluyor. Görmüş olduğunuz pokemonun üzerine tıklamalısınız. \n  Tıkladığınız pokemonu yakalamak iki şekilde gerçekleşiyor. Birincisi kameranız açılıyor ve kameranın gördüğü mesafede pokemon sanki gördüğünüz yerdeymiş gibi görünüyor. Oyunu gerçekçi hale getirse de bu seçenek şarj tüketen bir seçenek.\n   İkinci seçenek için ekranın üstünde yer alan “AR” tuşuna basarak normal moda dönebilirsiniz. Bu moda basarak animasyon üzerinden ilerliyorsunuz. Üstelik eğer hava karanlıksa oyun da gece oluyor, gündüzse güneşli bir şekilde pokemon yakalıyorsunuz.</string>
+    <string name="oyunbaslikbes">Yerler</string>
+    <string name="oyunbaslikalti">Pokestoplar:</string>
+    <string name="oyunbes">\t\t   Pokestoplar, haritada mavi olarak görünen, poke topları ve yumurta alınabilen duraklardır. Aynı pokestopa birden fazla defa gidilebilir ve top ile yumurta toplanabilir.  Pokestoplardan yararlanamayacak kadar uzak olduğunuzda “this pokestop is too far away” uyarısı alırsınız. Pokestoptan yararlanılabilinecek mesafeye gelindiğinde mavi yer işaretinin şekli değişir.</string>
+    <string name="oyunbaslikyedi">Gym:</string>
+    <string name="oyunalti">\t\t   Gym\'ler savaş alanlarıdır. Level 5 olduktan sonra Mavi (Mystick), Kırmızı (Valor) veya Sarı (Instinct) takımlardan birini seçtiğinizde karşı takımların Gym\'lerine takım arkadaşlarınızla birlikte saldırabilir, savunma ve saldırı stratejileri geliştirebilirsiniz. Kendi takımınızın rengine bürünmüş bir gymi savunmanız, farklı takımların GYM\'lerini ele geçirmeye çalışmanız amaçlanır.</string>
+    <string name="oyunyedi"> \t\t   Gym\'i savunmak: Kendi takımınıza ait bir GYM\'e gidin. Eğer gym aktif ise sol altta “+” işareti görünür. Bu durumda gyme girebilirsiniz. Eğer aktif değil ise sağ alt köşede training(eğitim) yapmalısınız.  Gym’i verimli kullanabilmek için gymde bulunan  pokemonların türlerini ve yeteneklerini bilmek gerekir. eğitim yaparken yendiğiniz her pokemondan XP ve GYM Prestige\'i kazanırsınız. Bu hem GYM leveline hem de sizin levelinize katkı sağlar. \n    \t\t     Yüksek prestij puanına sahip olmak GYMin güçlü olduğunu gösterir. Diğer takımların o GYM i ele geçirmesi zorlaşır. Eğitim düşman takımlarla savaşmalarla aynıdır ve Sadece 1 pokemon kullanılabilir.  Unutmayın; pokemonunuz sizin takımınızdan birinin gym\'ini savunurken yaralanabilir. GYM Sizin oyuncu levelınızı yükseltirken, pokemon levelınızı yükseltmeye yardımcı olmaz. \n    \t\t    GYM savunmak Defender bonus denilen bir puan kazandırır. Her 20 saatte bir bu bonusu toplayabilirsiniz. bu bonus; PokeCoins ve Stardust olarak gelir.\n      \t\t      Gym ele geçirmek: Başka takıma ait bir gymi ele geçirmek için meydan okunabilir. GYM Yenmek prestij puanını düşürür. Eğer GYM Prestij puanı yeterince düşerse orayı savunan takımın oyuncusu GYM\'den atılır ve artık o GYM\'de siz hak elde edebilirsiniz. Eğer gym daha önceden hiç sahiplenilmediyse yine aynı şekilde boş gözükür yani direkt savaşmadan alabilirsiniz. \n\n\n\n</string>
+    <string name="terimbaslikbir">Achievement(Başarı)</string>
+    <string name="terimbir"> \t\tOyunda yerine getirilen görevler sonucunda rozet alırsınız. Bu rozetler profilinizde görünür.</string>
+    <string name="terimiki">  \t\tPokemonların yaptığı güçlü saldırı çeşididir. Savaşta yeteri kadar stamina(gücünüz) var ise ekrana basılı tuttuğunuzda aktifleşen saldırı çeşididir.</string>
+    <string name="terimuc"> \t\tPokemonun savunma ve saldırı özelliklerini gösteren savaş puanıdır. Pokemonun gücünü gösterir.</string>
+    <string name="terimdort">\t\tPokemonun yenilmesi için alması gereken hasar miktarıdır.</string>
+    <string name="terimbes"> \t\tSavaş esnasında saldırıdan hasar almadan kurtulmayı ifade eder. </string>
+    <string name="terimalti">\t\tPokemonun evrimleşmesidir. evrimleşen pokemon’un CP’si ve istatistikleri artar.</string>
+    <string name="terimyedi">\t\tDeneyim puanlarıdır. Yaptığınız aktiviteler sonucu (pokemon yakalamak vs) artar ve seviye atlamanızı sağlar.</string>
+    <string name="terimsekiz">\t\tPokemon yakalayabilmek için ihtiyacınız olan eşyalardır. Eğer Poke toplarınız biterse Pokemon yakalayamazsınız.</string>
+    <string name="terimdokuz">\t\tEtrafınızdaki yerlerde genellikle merkezi yerlerde (heykel, müze, meydan, camii gibi) oyunu haritasında mavi daire şeklinde görünen duraklardır. Bu duraklar ücretsiz Poke topları, Pokemon yumurtaları ve diğer eşyalar verir.</string>
+    <string name="terimon">\t\tPokemon para birimidir.</string>
+    <string name="terimonbir"> \t\t5. Seviyeye ulaşıldığında gerçek oyuncularla mücadele etmek için gidilen arenalardır.</string>
+    <string name="terimbaslikiki">Pokemon Yumurtaları</string>
+    <string name="terimoniki">\t\tPoke Stoplarda bulunan ve içinden pokemon çıkan yumurtalardır. Yumurtalar alındıktan sonra çatlamaları için egg incubatorlara konulup belirli bir mesafe yürümek gerekir.</string>
+    <string name="terimonuc">\t\tYakaladığınız, karşılaştığınız pokemonlara ve pokemonların özelliklerine ulaşabileceğiniz yerdir.</string>
+    <string name="terimondort">  \t\tPokemon yakaladıkça ya da transfer ettikçe kazanılır. Her Pokemonun, kendi ismine özel Candysi vardır. Pokemonları güçlendirmek ve evrimleştirmek (evolve) için kullanılır.</string>
+    <string name="terimonbes">\t\tPokemon yakaladıkça ya da transfer ettikçe kazanırsınız. Stardust tüm pokemonlar için ortaktır.</string>
+    <string name="terimonalti">\t\tGymlerde savaşan ve yaralanan Pokemonları iyileştirir. 3 türü vardır: Normal Potion 20 HP iyileştirir, Super Potion 50 HP iyileştirir, Hyper Potion 200 HP iyileştirir.</string>
+    <string name="terimonyedi">\t\tSavaşlarda rakip takım tarafından baygın düşürülmüş Pokemonları canlandırır. Poke Stoplarda bulunur.</string>
+    <string name="terimonsekiz">\t\tEtrafta Pokemon bulma olasılığınızı arttırır. PokeCoinlerle satın alınabilir.</string>
+    <string name="terimondokuz">    \t\tZor yakalanan bir pokemonu yakalama şansını arttıran meyvelerdir. </string>
+    <string name="terimyirmi"> \t\tPokemon yumurtalarını koyup, siz yürüdükçe onların kırılmaya hazır hale gelmesini sağlayan eşyalardır. Aynı anda sadece 1 yumurta üzerinde kullanabilir, sınırsız sayıda kullanabilirsiniz. Seviye atladıkça 3 kullanımlık Egg Incubatorlar ile aynı anda birkaç yumurta açabilirsiniz. Oyuna 1 taneyle başlanır.\n\n\n\n</string>
+
+
+<string-array name="bilgi">
+    <item>Bulbasaur parlak güneş ışığında uyurken görülebilir. Sırtında bir tohum vardır. Güneş ışınlarını emerek sırtındaki tohum büyür.
+
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire(Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Ivysaur\n</item>
+    <item>  Sırtında bir tomurcuk vardır. Vücut ağırlığını taşıyabilmek için bacakları ve gövdesi kalın ve güçlü şekilde büyür. Güneşte uzun zaman geçirmeye başlaması sırtındaki tomurcuğun çiçek açacağının göstergesidir. \n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire(Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Venusaur\n</item>
+    <item>  Venusaur’un sırtında büyük bir çiçek vardır. Çiçek iyi besin ve bol güneş ışığı alırsa canlı renkler aldığı bilinir. Çiçeğin kokusu insanların sinirlerini yatıştırır.\n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire(Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n</item>
+    <item>  Kuyruğunun ucunda yanan alev duygularının göstergesidir. Bir şeyden mutlu olduğunda bu alev titrer. Eğer pokemon sinirlenirse alev şiddetli bir şekilde yanar ve yakıcıdır. \n
+            \nType (Tip) : Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n
+
+        \nEvolution (Evrimleşmiş Hali) :Charmeleon
+</item>
+    <item> Charmeleon düşmanlarını pençelerini kullanarak acımasızca yok eder. Güçlü bir düşmanla karşılaştığında sinirlenir. Bu durumda kuyruğunun ucundaki alev mavimsi beyaz bir renk alır.\n
+            \nType (Tip) :Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n
+            \nEvolution (Evrimleşmiş Hali)  :Charizard\n</item>
+    <item> Charizard uçarak güçlü rakipler arar. Nefesinde her şeyi eriten güçlü bir alev vardır, ancak bu alevi kendinden güçsüz bir rakip için kullanmaz. \n
+            \nType (Tip) : Fire (Ateş), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Rock (Kaya), Electric (Elektrik), Water (Su)\n</item>
+    <item>  Squirtle\'ın kabuğu yalnızca korunma amaçlı değildir. Kabuğunun yuvarlak şekli ve yüzeyindeki oluklar suyun direncini en aza indirger ve çok hızlı yüzmesini sağlar. \n
+            \nType (Tip) : Water (Su) \n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Wartortle\n</item>
+    <item>  Kuyruğu büyüktür, sık ve kalın bir kürkle kaplıdır. Wartortle yaşlandıkça kuyruğunun rengi koyulaşır. Kabuğundaki çizikler ne kadar güçlü bir savaşçı olduğunu gösterir. \n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Blastoise\n</item>
+    <item>  Kabuğunda su fışkırtan fıskiyeler vardır. Bu fıskiyeler hedefe uygun atış yaparlar. Boş kutuları 160 feet (50 Metre) mesafeden vurabilecek kesinlikte su mermileri atar.\n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n</item>
+    <item> Caterpie çok oburdur. Kendi cüssesinden büyük yaprakları yiyebilir. Kafasındaki anteninden çok güçlü bir koku yayar. \n
+            \nType (Tip) : Bug (Böcek)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Metapod\n</item>
+    <item>Kabuğu metal bir levha kadar serttir. Fazla hareket eden bir pokemon değildir. Yumuşak bağırsaklarını sert kabuğunun içinde evrimleşmek için hazırlamak üzere sabit durur.\n
+            \nType (Tip) : Bug (Böcek)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Butterfree\n</item>
+    <item>  Butterfree’nin çiçeklerden lezzetli bal bulmak üzere gelişmiş bir yeteneği vardır. Yuvasından 6 mil uzaktaki çiçeklerden bal bulup, toplayıp, taşıyabilir. \n
+            \nType (Tip) : Bug (Böcek), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Rock (Kaya), Electric (Elektrik), Fire (Ateş), Flying (Uçan), İce (Buz)\n</item>
+    <item>  Weedle’ın koku alma duyusu çok güçlüdür. Büyük kırmızı hortum şeklindeki burnu ile sevdiği yaprakları sevmediklerinden yalnızca koklayarak ayırt edebilir. \n
+            \nType (Tip) : Bug (Böcek), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Psychic (Psişik), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Kakuna\n </item>
+    <item> Kakuna hareketsiz bir şekilde, ağaca tutunur halde durur, ancak gelecek evrimi için hazırlık yapmak üzere çok meşguldür. Bu durum, kabuğunun sıcaklığından anlaşılabilir.\n
+            \nType (Tip) : Bug (Böcek), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Psychic (Psişik), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Beedril\n</item>
+    <item>  Beedrill çok bölgeseldir. Kimse, kendi güvenliği için, yuvasına yaklaşmamalıdır. Kızdığı zaman büyük bir öfkeyle saldırır. \n
+            \nType (Tip) : Bug (Böcek), Poison (Zehir)\n
+            \nWeaknesse(Zayıflıkları): Fire (Ateş), Flying (Uçan), Psychic (Psişik), Rock (Kaya)\n</item>
+    <item>  Pidgey’nın yön duygusu çok gelişmiştir. Yakın çevresinden ayırılsa da yuvasına hatasız bir şekilde dönebilir. \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), İce (Buz), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Pidgeotto\n</item>
+    <item>   Bu pokemon geniş bir alanı kendi bölgesi olarak iddia eder. Uçarak kendi bölgesini kontrol eder. Eğer bölgesine girilirse düşmenina pençeleriyle acımadan saldırır. \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), İce (Buz), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Pidgeot\n</item>
+    <item>   Pidgeot’un parlak ve güzel tüyleri vardır. Birçok eğitmen Pidgeot’un kafasındaki tüylerin güzelliğinden etkilenerek pokemonları olarak onu seçmek zorunda kalır. \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), İce (Buz), Rock (Kaya)\n</item>
+    <item>   Rattata oldukça tedbirlidir. Uyurken bile kulaklarını oynatarak etrafını dinler. Yaşadığı yer konusunda seçici değildir.\n
+            \nType (Tip) : Normal (Normal)\n
+            \nWeaknesses (Zayıflık) : Fighting (Savaşmak)\n
+            \nEvolution (Evrimleşmiş Hali) : Raticate\n</item>
+    <item>  Dişleri sağlamlaşarak büyür. Dişlerine düzgün bakmak için kayaları ısırır. \n
+            \nType (Tip) : Normal (Normal)\n
+            \nWeaknesses (Zayıflık) : Fighting (Savaşmak)\n</item>
+    <item>  Spearow’un bağırması yarım mil uzaklıktan bile duyulabilecek kadar yüksektir. Yüksek sesle bağırmaları birbirlerini tehlikeye karşı uyardıklarının göstergesidir.  \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), İce (Buz), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Fearow\n</item>
+    <item> Fearow’u uzun boynu ve gagasından tanıyabiliriz. Boynu ve gagası toprakta veya suda av yakalamak üzere şekillenmiştir. Avlanmak için uzun ve ince gagasını kullanır. \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), İce (Buz), Rock (Kaya)\n</item>
+    <item> Ekans dinlenirken kıvrılarak yatar. Bu yatış pozisyonu herhangi bir yönden gelebilecek bir tehdidi kaldırdığı kafasıyla hızlıca algılamasına olanak sağar. \n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Arbok\n</item>
+    <item>  Bu pokemonun vücudu bir şeyleri sıkabilmek için oldukça güçlüdür. Düşmanını vücuduyla sardığı anda kaçmak imkansızdır. \n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık): Ground (Toprak), Psychic (Psişik)\n</item>
+    <item> Pikachu yeni bir şeyle karşılaştığında elektrik kıvılcımı çıkarır. Eğer kararmış bir Berry (Dut/Böğürtlen) görürseniz, Pikachu istemeden patlatmış olabilir. \n
+            \nType (Tip) : Electric (Elektrik)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak)\n
+            \nEvolution (Evrimleşmiş Hali) : Raichu\n</item>
+    <item>   Elektrik keseleri aşırı yüklenirse kuyruğunu toprağa sokarak deşarj olur. Yuvasının yakınlarında yerlerde hasarlar bulunur. \n
+            \nType (Tip) : Electric (Elektrik)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak)\n</item>
+    <item>   Sandshrew’un bedeni suyu atıksız emmesine ve kurak çöllerde hayatta kalmasına olanak sağlayacak şekilde tasarlanmıştır. Düşmanlarından korunmak için kıvrılır.\n
+            \nType (Tip) : Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), İce (Buz), Water (Su)\n
+            \nEvolution (Evrimleşmiş Hali) : Sandslash\n</item>
+    <item>   Vücudu katı sivriliklerle kaplıdır. Her yıl bir kere eski dikenleri dökülür ve alttan gelen yenileriyle kaplanır.\n
+            \nType (Tip) : Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), İce (Buz), Water (Su)\n</item>
+    <item>   Kuvvetli bir zehir salgılayan dikenleri vardır. Bu küçük cüsseli pokemonu korumak üzere geliştikleri söylenir. Sinirlendiğinde boynuzundan bir toksin salgılar. \n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Nidorina\n</item>
+    <item>   Ailesi veya arkadaşları ile birlikteyken birbirlerini incitmemek için dikenlerini saklarlar. Çevresinden ayrılırsa tedirgin olur. \n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık): Ground (Toprak), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Nidoqueen\n</item>
+    <item>  Vücudu sert ortamlara dayanıklıdır. Düşmanlarını sert bir şekilde fırlatır. En güçlü halini yavrusunu savunurken alır.\n
+            \nType (Tip) : Poison (Zehir), Ground (Toprak)\n
+            \nWeaknesses (Zayıflık): Ground (Toprak), Ice (Buz), Psychic (Psişik), Water (Su)\n
+            </item>
+    <item>  Kulaklarını oynatabilmek için kasları gelişmiştir. Bu sayede kulakları her yönde oynayabilir. Bu pokemon hiçbir sesi kaçırmaz.\n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık): Ground (Toprak), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Nidorino\n</item>
+    <item> Nidorino’nun elmastan daha sert bir boynuzu vardır. Düşmanının varlığını hissettiğinde sırtındaki dikenler kalkar ve düşmanına hazır hale gelir. \n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık): Ground (Toprak), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Nidoking\n</item>
+    <item>  Kalın kuyruğu yıkıcı güçtedir. Bir hamlesiyle metal bir kuleyi bile devirebilir. Öfkesi geri dönülmezdir. \n
+            \nType (Tip) : Poison (Zehir), Ground (Toprak)\n
+            \nWeaknesses (Zayıflık): Ground (Toprak), İce (Buz), Psychic (Psişik), Water (Su)\n</item>
+    <item>  Her dolunay gecesi bir grup Clefairy oynamaya çıkar. Şafak söktüğünde sessiz dağlarındaki yuvalarına gider ve beraber uyurlar.\n
+            \nType (Tip) : Fairy (Peri)\n
+            \nWeaknesses (Zayıflık): Steel (Çelik), Poison (Zehir)\n
+            \nEvolution (Evrimleşmiş Hali) : Clefable\n</item>
+    <item>  Kanatlarını uçuyormuş gibi hafifçe çırpar. Zıplayan adımları suda yürümesine olanak sağlar. Sessiz ve mehtaplı gecelerde göllerin üzerinde yürüyüş yapar. \n
+            \nType (Tip) : Fairy (Peri)\n
+            \nWeaknesses (Zayıflık): Steel (Çelik), Poison (Zehir)\n</item>
+    <item>   Doğduğunda bir tane beyaz kuyruğu vardır. Eğitmeninden sevgi görürse kuyruğu altı parçaya ayrılır. Altı kuyruğu da kıvrık bir şekil alır. \n
+            \nType (Tip) : Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n
+            \nEvolution (Evrimleşmiş Hali) : Ninetales\n</item>
+    <item> Ninetales düşmanının zihnini ele geçirmek için kırmızı bir ışık yayar. Binlerce sene yaşadığından bahsedilir. \n
+            \nType (Tip) : Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n</item>
+    <item>  Jigglypuff’ın ses telleri sesinin dalga boyuna göre ayarlanabilir. Bu özelliğini düşmanlarını uyutacak dalga boyunda şarkı söylemek için kullanır.\n
+            \nType (Tip) : Normal (Normal), Fairy (Peri)\n
+            \nWeaknesses (Zayıflık) : Steel (Çelik), Poison (Zehir)\n
+            \nEvolution (Evrimleşmiş Hali) : Wigglytuff\n</item>
+    <item> Büyük gözleri vardır. Gözlerinin yüzeyi ince bir tabaka gözyaşı ile kaplıdır. Gözüne giren tozları kolayca akıtır.  \n
+            \nType (Tip) : Normal (Normal), Fairy (Peri)\n
+            \nWeaknesses (Zayıflık) : Steel (Çelik), Poison (Zehir)\n</item>
+    <item>  Zubat aydınlık saatlerde karanlık bir noktada sabit ve sessizce durur. Bunun sebebi uzun süre güneş ışığına maruz kalmanın cildini yakmasıdır.  \n
+            \nType (Tip) : Poison (Zehir), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Rock (Kaya), Psychic (Psişik), İce (Buz)\n
+            \nEvolution (Evrimleşmiş Hali) : Golbat\n</item>
+    <item>  Canlıların kanını içmeyi çok sever. Özellikle gece karanlığında aktiftir, gökyüzünde uçarak taze kan arar.\n
+            \nType (Tip) : Poison (Zehir), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Rock (Kaya), Psychic (Psişik), İce (Buz)\n</item>
+    <item>  Gündüz saatlerinde kendini toprağa gömerek besinleri emer. Toprak ne kadar verimliyse yaprakları o kadar parlaktır. \n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Gloom\n</item>
+
+    <item>   Çiçeğinin pistil’inden (dişi organ) kötü bir koku salar. Tehlike karşısında koku kötüleşir. Sakin ve güvendeyken normal, kötü kokusunu salmaz. \n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Vileplume\n</item>
+    <item> Vileplume\'un toksik poleni alerji ataklarına yol açar. Bu yüzden ormandaki hiçbir çiçeğe yaklaşmamak önerilir.\n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n</item>
+    <item>  Paras’ın sırtında büyüyen “Tochukaso” adında parazit mantarlar vardır. Besinlerini paras’tan emerek büyürler. Ömrü uzatmak için ilaç olarak kullanılmak adına oldukça değerlidirler. \n
+            \nType (Tip) : Bug (Böcek), Grass (Çimen)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Bug (Böcek), İce (Buz), Poison (Zehir), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Parasect\n</item>
+    <item>  Parasect ağaçları istila ederek alt gövdeleri ve köklerinden besin emmesiyle bilinir. İstila ettikleri ağaç öldüğünde birlikte sonraki ağaca geçerler.\n
+            \nType (Tip) : Bug (Böcek), Grass (Çimen)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Bug (Böcek), İce (Buz), Poison (Zehir), Rock (Kaya)\n</item>
+    <item>  Bu pokemonun korunma amaçlı olarak ince ve sert tüylerle kaplı olarak evrimleştiği söylenir. Büyük gözleri sayesinde en küçük avları bile kaçırmazlar.  \n
+            \nType (Tip) : Bug (Böcek), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Psychic (Psişik), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Venomoth\n</item>
+    <item>  Gececidir, yalnızca geceleri aktiftir. En sevdiği avı karanlıktaki sokak ışıklarının etrafında toplanan küçük böceklerdir. \n
+            \nType (Tip) : Bug (Böcek), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Psychic (Psişik), Rock (Kaya)\n</item>
+    <item>  Diglett birçok çiftlikte yetiştirilir, çünkü bu pokemonun yuvaları toprağı sürmek ve lezzetli sebzeler ekmek için için ideal hale getirir.  \n
+            \nType (Tip) : Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), İce (Buz), Water (Su)\n
+            \nEvolution (Evrimleşmiş Hali) : Dugtrio\n</item>
+    <item>  Dugtrio aynı vücuttan çıkan üçüzlerdir. Her biri diğer ikisiyle aynı düşünür. Yuva yapmak üzere işbirliğiyle çalışırlar. \n
+            \nType (Tip) : Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), İce (Buz), Water (Su)\n</item>
+    <item>  Meowth keskin tırnaklarını pençelerinin içine alarak ayak izi bırakmadan hareket eder. Bu pokemon parlak paraları çok sever. \n
+            \nType (Tip) : Normal (Normal)\n
+            \nWeaknesses (Zayıflık) : Fighting (Savaşmak)\n
+            \nEvolution (Evrimleşmiş Hali) : Persian\n</item>
+    <item>  Persian’ın altı tane kalın bıyığı ona sert bir görünüm verir. Bu bıyıklar pokemonun çevresinde olanları anlamak için hava hareketlerini algılar. Bıyıklarından tutulduğunda uysallaşır. \n
+            \nType (Tip) : Normal (Normal)\n
+            \nWeaknesses (Zayıflık) : Fighting (Savaşmak)\n</item>
+    <item>  Psyduck gizemli bir güç kullanır. Sadece uyuyanlar tarafından görülen beyin dalgaları üretir. Bu, bilim adamları arasında tartışmalara yol açan bir keşiftir.  \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Golduck\n</item>
+    <item>  Ön ve arka ayakları perdeli ve palet gibidir. Bu sayede çok hızlı yüzer. \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n</item>
+    <item>  Titremesi ve burnundan şiddetle nefes alması sinirlenme göstergesidir. Çok hızlı sinirlendiği için öfkesinden kaçmak imkansızdır. \n
+            \nType (Tip) : Fighting (Savaşmak)\n
+            \nWeaknesses (Zayıflık) : Flying (Uçan), Psychic (Psişik), Fairy (Peri)\n
+            \nEvolution (Evrimleşmiş Hali) : Primeape\n</item>
+    <item>  Primeape sinirlendiğinde kan dolaşımı hızlanır, kasları güçlenir ama daha az zeki bir hale gelir.\n
+            \nType (Tip) : Fighting (Savaşmak)\n
+            \nWeaknesses (Zayıflık) : Flying (Uçan), Psychic (Psişik), Fairy (Peri)\n</item>
+    <item>  Growlithe’ın koku duyusu çok gelişmiştir. Kokladığı hiçbir şeyin kokusunu unutmaz. Bu gücünü canlıların duygularını anlamak için kullanır.  \n
+            \nType (Tip) : Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n
+            \nEvolution (Evrimleşmiş Hali) : Arcanine\n</item>
+    <item>   Arcanine’in çok yüksek bir hızı vardır. Bir gün ve gecede 6,200 mil koşabilecek kapasitesi vardır. İçinde yanan şiddetli ateş güç kaynağıdır.  \n
+            \nLegendary Pokemon (Efsanevi Pokemon)\n
+            \nType (Tip) : Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n</item>
+    <item>  Poliwag çok ince bir deriye sahiptir. Kıvrılmış bağırsaklarını dışarıdan görmek mümkündür. Derisi inceliğine rağmen çok esnektir. Sivri dikenler bile yüzeyinden sekebilir. \n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) (Zayıflıkları): Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Poliwhirl\n</item>
+    <item>  Vücudunun yüzeyi sümüksü bir sıvıyla her zaman ıslak be kaygandır. Bu yapısı sayesinde savaşta düşmanın elinden kolayca kurtulabilir.  \n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) (Zayıflıkları): Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Poliwrath\n</item>
+    <item>  Poliwrath’ın gelişmiş kasları hiçbir zaman yorulmaz. O kadar güçlü ve yorulmazdır ki okyanusta düz ve ters olarak zorluk çekmeden yüzebilir.  \n
+            \nType (Tip) : Water (Su), Fighting (Savaşmak)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Flying (Uçan), Grass (Çimen), Psychic (Psişik), Fairy (Peri)\n</item>
+    <item>   Abra günde on sekiz saat uyur, ancak uykusunda düşmanlarının varlığınu sezebilir. Böyle durumlarda güvenli bir yere ışınlanır. \n
+            \nType (Tip) : Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Ghost (Hayalet)\n
+            \nEvolution (Evrimleşmiş Hali) : Kadabra\n</item>
+    <item>  Kadabra baş ağrısına yol açan bir alfa dalgası yayar. Yalnızca güçlü bir ruhu olan eğitmenler bu pokemonu eğitebilir.\n
+            \nType (Tip) : Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Ghost (Hayalet)\n
+            \nEvolution (Evrimleşmiş Hali) : Alakazam\n</item>
+    <item>  Alakazam\'ın beyni sürekli büyür ve boynuyla taşıyamayacağı kadar büyük bir kafası olur. Kafasını havada tutmak için psikokinetik güçlerini kullanır. \n
+            \nType (Tip) : Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Ghost (Hayalet)\n</item>
+    <item>  Machop\'un kasları özeldir. Ne kadar çalışırlarsa çalışsınlar hasar almazlar. \n
+            \nType (Tip) : Fighting (Savaşmak)\n
+            \nWeaknesses (Zayıflık) : Flying (Uçan), Psychic (Psişik), Fairy (Peri)\n
+            \nEvolution (Evrimleşmiş Hali) : Machoke\n</item>
+    <item>   Machoke\'un kasları çelik kadar serttir. Aşırı güçlü bir pokemondur.  \n
+            \nType (Tip) : Fighting (Savaşmak)\n
+            \nWeaknesses (Zayıflık) : Flying (Uçan), Psychic (Psişik), Fairy (Peri)\n
+            \nEvolution (Evrimleşmiş Hali) : Machamp\n</item>
+    <item>   Machamp kendisine hamle yapan her şeyi savurabilir, ama el becerisi gerektiren işleri yapmaya çalıştığında elleri karışır. Machamp düşünmeden harekete geçer. \n
+            \nType (Tip) : Fighting (Savaşmak)\n
+            \nWeaknesses (Zayıflık) : Flying (Uçan), Psychic (Psişik), Fairy (Peri)\n</item>
+    <item>   Bellsprout\'un ince ve esnek vücudu karşılaştığı saldırı ne kadar güçlü olursa olsun kaçmasını sağlar. Demiri bile eritebilecek bir tükürüğü vardır. \n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Weepinbell\n</item>
+    <item>  Weepinbell’in arkasında büyük bir kanca vardır. Geceleri bir ağaç dalına takılır ve uyur. Hareket ederse düşüp yerde uyanabilir. \n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Victreebel\n</item>
+    <item>   Victreebel’ın başından çıkan uzun bir asma vardır. Bu asma avını yakalayacak bir hayvan gibi dalgalanmıştır. Beklenmedik bir av yaklaştığında bu pokemon onu bütün olarak yutar.  \n
+            \nType (Tip) : Grass (Çimen), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), İce (Buz), Psychic (Psişik)\n</item>
+
+    <item>  Deniz anası şeklindeki Tentacool\'un vücudu büyük oranda sudan oluşur. Denizdan çıkarılırsa vücudu kurur. Eğer susuz kalırsa suyun içine geri koyulmalıdır. \n
+            \nType (Tip) : Water (Su), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Ground (Toprak), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Tentacruel\n</item>
+    <item>   Kafasında kırmızı ve büyük küreler vardır. Bu küreler şiddetle ultrasonik bir şekilde patlamadan önce parlamaya başlar. Bu pokemonun patlaması şiddetli dalgalara yol açar.  \n
+            \nType (Tip) : Water (Su), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Ground (Toprak), Psychic (Psişik)\n</item>
+    <item>   Bu pokemon ne kadar yaşarsa köşeleri o kadar körelir ve yuvarlak bir şekil alır. Kalbi her zaman sert ve taş gibidir. \n
+            \nType (Tip) : Rock (Kaya), Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), Water (Su), Fighting (Savaşmak), Ground (Toprak), Ice (Buz), Steel (Çelik)\n
+            \nEvolution (Evrimleşmiş Hali) : Graveler\n</item>
+    <item>   Graveler kayaları yiyerek beslenir. Yosun kaplı kayaları yemekten hoşlanır.  \n
+            \nType (Tip) : Rock (Kaya), Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), Water (Su), Fighting (Savaşmak), Ground (Toprak), Ice (Buz), Steel (Çelik)\n
+            \nEvolution (Evrimleşmiş Hali) : Golem\n</item>
+    <item>  Golem dağlarda yaşar. Büyük bir deprem olduğunda bu pokemon yuvarlanarak dağın eteklerine iner.  \n
+            \nType (Tip) : Rock (Kaya), Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), Water (Su), Fighting (Savaşmak), Ground (Toprak), Ice (Buz), Steel (Çelik)\n</item>
+    <item>  Ponyta doğduğunda çok güçsüzdür. Bu pokemon ailesinin yanında düşe kalka güçlenir.\n
+            \nType (Tip) : Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n
+            \nEvolution (Evrimleşmiş Hali) : Rapidash\n</item>
+    <item>  Rapidash vadi ve ovalarda koşarken görülebilir. Bu pokemon sinirlendiğinde ateşi parlar ve saatte 240 kilometre hızla koşar. \n
+            \nType (Tip) : Fire (Ateş)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Rock (Kaya), Water (Su)\n</item>
+    <item>  Slowpoke nehit kenarlarında kuyruğunu suya batırarak avını yakalar. Bu pokemon genellikle ne yaptığını unutur ve suyun kenarında boş boş gezinir.  \n
+            \nType (Tip) : Water (Su), Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Electric (Elektrik), Ghost (Hayalet), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Slowbro\n</item>
+    <item>   Slowbro\'nun kuyruğuna Shellder pokemonu ısırmış bir şekilde takılıdır. Bu yüzden bu pokemon kuyruğunu balık tutmak için kullanamaz. Bu pokemon isteksizce yüzer ve avlanır. \n
+            \nType (Tip) : Water (Su), Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Electric (Elektrik), Ghost (Hayalet), Grass (Çimen)\n</item>
+    <item>  Magnemite elektrikten beslenmek için kendini güç hatlarına bağlar. \n
+            \nType (Tip) : Electric (Elektrik), Steel (Çelik)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Fire (Ateş), Fighting (Savaşmak)\n
+            \nEvolution (Evrimleşmiş Hali) : Magneton\n</item>
+    <item>   Magneton mekanik araçlara ölümcül etki bırakabilecek şiddette bir manyetik güç yayar.  \n
+            \nType (Tip) : Electric (Elektrik), Steel (Çelik)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Fire (Ateş), Fighting (Savaşmak)\n
+            \nEvolution (Evrimleşmiş Hali) : Magnezone\n</item>
+    <item>  Farfetch\'d her zaman bir bitki sapı ile birlikte görülür. İyi saplar ve kötü saplar vardır ve bu pokemon düşmanlarıyla saplarla savaşır. \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Elektric (Elektrik), Ice (Buz), Rock (Kaya)\n</item>
+    <item>  Doduo\'nun iki kafası hiçbir zaman aynı anda uyumaz. Bu iki kafa birbirleri uyurken düşmanlara karşı nöbet tutarlar.  \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Elektric (Elektrik), Ice (Buz), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Dodrio\n</item>
+    <item>  Eğer Dodrio’nun üç kafası farklı yönlere bakıyorsa bu tetikte olduğunu gösterir. Bu durumda yaklaşırsanız sizi gagalayabilir. \n
+            \nType (Tip) : Normal (Normal), Flying (Uçan)\n
+            \nWeaknesses (Zayıflık) : Elektric (Elektrik), Ice (Buz), Rock (Kaya)\n</item>
+    <item>  Seel bir fok balığıdır. Soğuk denizde buz tabakalarının altında avlanır. Havaya ihtiyacı olduğunda başının sivri kısmıyla buzda bir delik açar.  \n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) : Elektric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Dewgong\n</item>
+    <item>   Dewgong buzun üzerinde uyuklamayı sever.\n
+            \nType (Tip) : Water (Su), Ice (Buz)\n
+            \nWeaknesses (Zayıflık) : Elektric (Elektrik), Fighting (Savaşmak), Grass (Çimen), Rock (Kaya)\n</item>
+    <item>  Grimer\'un çamurlu ve lastiksi vücudu ne kadar küçük olursa olsun her yerde geçmesini sağlar. Kanalizasyon borularına girip atık su içer.  \n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Muk\n</item>
+    <item>   Vücudundan pis kokan bir koku sızdırır, sıvıları durgun ve kokuşmuş bir hale getirebilir.\n
+            \nType (Tip) : Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak), Psychic (Psişik)\n</item>
+    <item>  Geceleri geniş dilini kullanarak denizin kumunda kendine yuva yapar ve içinde uyur. Uyurken kabuğu kapanır ama dili dışarda kalır.\n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Colyster\n</item>
+    <item>  Cloyster denizde suyu yutup arkasından fışkırtarak yüzebilir. Aynı şekilde kabuğundan dikenler fırlatabilir.  \n
+            \nType (Tip) : Water (Su), Ice (Buz)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Fighting (Savaş), Grass (Çimen), Rock (Kaya)\n</item>
+    <item>   Gastly çoğunlukla gaz maddelerden oluşur. Şiddetli bir rüzgarla karşılaştığında vücudu bozulur. Gastly gruplar halinde evlerin saçaklarının altına saklanarak rüzgardan korunur. \n
+            \nType (Tip) : Ghost (Hayalet), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Dark (Karanlık), Ghost (Hayalet), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Haunter\n</item>
+    <item>  Haunter oldukça tehlikelidir. Eğer karanlıkta size işaret verirse yaklaşmamalısınız, çünkü sizi yalayarak yaşamınızı elinizden alacaktır.  \n
+            \nType (Tip) : Ghost (Hayalet), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Dark (Karanlık), Ghost (Hayalet), Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali) : Gengar\n</item>
+    <item>  Karanlık gecelerde Genger gölgenizmiş gibi yaparak ani ve rahatsız edici bir şekilde sizi alt edebilir.\n
+            \nType (Tip) : Ghost (Hayalet), Poison (Zehir)\n
+            \nWeaknesses (Zayıflık) : Dark (Karanlık), Ghost (Hayalet), Psychic (Psişik)\n</item>
+    <item>  Onix’in beyninde bir mıknatıs vardır. Bu mıknatıs Onix tünel açarken yönünü şaşırmaması için bir pusula işlevi görür. Yaşlandıkça bu pusula büyür ve yuvarlaklaşır.  \n
+            \nType (Tip) : Rock (Kaya), Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), Water (Su), Fighting (Savaş), Ground (Toprak), Ice (Buz), Steel (Çelik)\n</item>
+    <item>  Bu pokemon burun deliklerinizden rüyanızı yemeye çalışabilir. \n
+            \nType (Tip) : Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Ghost (Hayalet)\n
+            \nEvolution (Evrimleşmiş Hali) : Hypno\n</item>
+    <item>    Hypno elinde bir pendulum (sarkaç) tutar. Bu pendulum’un hareketi ve parıltısı düşmanı hipnoz etmesini sağlar. Bu pokemon av ararken pendulumu parlatır. \n
+            \nType (Tip) : Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Ghost (Hayalet)\n</item>
+    <item>  Krabby sahillerde, kuma açılmış deliklerdeki yuvasında yaşar. Bu pokemonlar yemek ve alan için birbirleriyle tartışabilirler. \n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali) : Kingler\n</item>
+    <item>   Kingler’ın aşırı büyük bir kıskacı vardır. Bu kıskacı havada sallayarak iletişim kurar ama kıskacın ağırlığından dolayı hızlı yorulur.  \n
+            \nType (Tip) : Water (Su)\n
+            \nWeaknesses (Zayıflık) : Electric (Elektrik), Grass (Çimen)\n</item>
+    <item>   Voltorb ilk olarak Poke Ball (Poke Topu) üreten bir şirkette görülmüştür. Bununla pokemonun Poke Ball’a benzerliği arasındaki bağlantı hala bir gizemdir. \n
+            \nType (Tip) : Electric (Elektrik)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak)\n
+            \nEvolution (Evrimleşmiş Hali) : Electrode \n</item>
+    <item>    Electrode atmosferdeki elektrikten beslenir. Yıldırım çaktığı zaman bu pokemon fazla elektrik yemekten patlayabilir.  \n
+            \nType (Tip) : Electric (Elektrik)\n
+            \nWeaknesses (Zayıflık) : Ground (Toprak)\n</item>
+    <item>    Bu pokemon bir örme küme oluşturan altı yumurtadan oluşur. Bu altı yumurta birbirini çeker ve etrafta dönerler. Eğer yumurtalarda çatlaklar görülüyorsa Exeggcute evrimleşiyor demektir.  \n
+            \nType (Tip) : Grass (Çimen), Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Fire (Ateş), Flying (Uçmak), Ghost (Hayalet), Ice (Buz), Poison (Zehir)\n
+            \nEvolution (Evrimleşmiş Hali) : Exeggutor\n</item>
+    <item>    Exeggutor aslında tropikal alanlardan gelmiştir. Güneş ışığına maruz kaldığında kafaları büyür. Kafaları koptuğunda gruplaşarak Exeggcute oluşturdukları söylenir. \n
+            \nType (Tip) : Grass (Çimen), Psychic (Psişik)\n
+            \nWeaknesses (Zayıflık) : Bug (Böcek), Dark (Karanlık), Fire (Ateş), Flying (Uçmak), Ghost (Hayalet), Ice (Buz), Poison (Zehir)\n</item>
+    <item>   Cubone bir daha asla göremeyeceği annesini özler. Dolunayda annesinin benzerini görünce ağlar. Kafasına taktığı kafatasındaki lekeler akıttığı gözyaşlarından meydana gelmiştir.\n
+            \nType (Tip) : Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), Ice (Buz), Water (Su)\n
+            \nEvolution (Evrimleşmiş Hali) : Marowak \n</item>
+    <item>    Marowak Cubone’un evrimleşerek üzüntüsünü atlatmış ve güçlenmiş halidir. Bu pokemonun güçlenmiş ve öfkelenmiş ruhu kolay zedelenemez. \n
+            \nType (Tip) : Ground (Toprak)\n
+            \nWeaknesses (Zayıflık) : Grass (Çimen), Ice (Buz), Water (Su)\n</item>
+    <item>Bacakları istediği gibi kasılır ve esner. Bu özellikleriyle düşmanlarına sert darbeler uygular. Savaşlardan sonra yorulmuş kaslarını dinlendirir. \n
+            \nType (Tip): Fighting (Savaşan)\n
+            \nWeaknesses (Zayıflıklar): Flying (Uçmak), Psychic (Psişik), Fairy (Peri)\n
+            \nEvolution (Evrimleşmiş Hali): Hitmonchan\n</item>
+    <item>Hitmonchan’ın yılmayan bir ruhu vardır ve zorluklara karşı mücadele etmeyi asla bırakmaz. \n
+            \nType (Tip): Fighting (Savaşan)\n
+            \nWeaknesses (Zayıflıklar): Flying (Uçmak), Psychic (Psişik), Fairy (Peri)\n</item>
+    <item>Yeni bir şey gördüğünde onu yalar. Bunun sebebi etrafındakileri dokusu ve tadından hatırlamasıdır. Ekşi şeylerden rahatsız olur. \n
+            \nType (Tip): Normal (Normal)\n
+            \nWeaknesses (Zayıflıklar): Fighting (Savaşmak)\n</item>
+    <item>Koffing heyecanlandığında vücudundaki gazların toksikliği artar ve onları her yanından dışarı salar. Yuvarlak bedeni fazla şişerek patlayabilir. \n
+            \nType (Tip): Poison (Zehir)\n
+            \nWeaknesses (Zayıflıklar): Psychic (Psişik)\n
+            \nEvolution (Evrimleşmiş Hali): Weezing\n</item>
+    <item>Weezing mutfak çöplerinin, atıkların yaydığı kokuya bayılır. Pis evleri kendi yuvası olarak kullanır ve geceleri çöpleri karıştırır.\n
+            \nType (Tip): Poison (Zehir)\n
+            \nWeaknesses (Zayıflıklar): Psychic (Psişik)\n</item>
+    <item>Rhyhorn düz bir çizgide koşarak önüne çıkan her şeyi ezer. Önüne çıkan beton bile olsa hasar almaz. Sonraki gün çarpışmalarından biraz acı hissedebilir. \n
+            \nType (Tip): Ground (Toprak), Rock (Kaya)\n
+            \nWeaknesses (Zayıflıklar): Grass (Çimen), Water (Su), Fighting (Savaşmak), Ground (Toprak), Ice (Buz), Steel (Çelik)\n
+            \nEvolution (Evrimleşmiş Hali): Rhydon\n</item>
+    <item>Rhydon\'un boynuzu her şeyi parçalayabilir. Kuyruğunun bir hamlesi her şeyi devirebilir. \n
+            \nType (Tip): Ground (Toprak), Rock (Kaya)\n
+            \nWeaknesses (Zayıflıklar): Grass (Çimen), Water (Su), Fighting (Savaşmak), Ground (Toprak), Ice (Buz), Steel (Çelik)\n</item>
+    <item>Chansey günlük olarak besin değeri mükemmel olan yumurtalar bırakır. Bu yumurtalar inanılmaz lezzetlidir.\n
+            \nType (Tip): Normal (Normal)\n
+            \nWeaknesses (Zayıflıklar): Fighting (Savaşmak)\n</item>
+    <item>Tangela\'nın uzantıları kolayca koparılabilir. Bunların kopması acı vermez ve kaçması kolaylaşır. Kaybettiği uzantılarının yenisi sonraki gün çıkar.  \n
+            \nType (Tip): Grass (Çimen)\n
+            \nWeaknesses (Zayıflıklar): Bug (Böcek), Fire (Ateş), Flying (Uçmak), Ice (Buz), Poison (Zehir)\n</item>
+    <item>Kangaskan yavrusunu yalnız bırakmaz, yakın çevresinden ayrılmaz. Eğer yavruya yaklaşan olursa şiddetle saldırır.\n
+            \nType (Tip): Normal (Normal)\n
+            \nWeaknesses (Zayıflıklar): Fighting (Savaşmak)\n</item>
+    <item>Horsea kayalardaki küçük böcek ve yosunları yer. Eğer okyanusun akıntısı hızlanırsa kuyruğuyla kayaya tutunarak sürüklenmekten korunur.  \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflıklar): Electic (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali): Seadra\n</item>
+    <item>Bu pokemon mercan dallarının arasına kıvrıldıktan sonra uyur. Mercan toplamak isteyenleri çarpar. \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflıklar): Electic (Elektrik), Grass (Çimen)\n</item>
+    <item>Goldeen çok güzel bir pokemondur ama boynuzuyla sizi çarpabilir. \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflıklar): Electic (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali): Seaking\n</item>
+    <item>Bu pokemonlar sonbaharda dere yataklarında dans ederek dişilere kur yaparlar. Bu sezonda vücutlarının renkleri en güzel hallerini alır.\n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflıklar): Electic (Elektrik), Grass (Çimen)\n</item>
+    <item>Staryu\'nun ortasındaki bölge “core (öz)” denilen, kırmızı ve parlak bir organdır.  \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflıklar): Electic (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali): Starmie\n</item>
+    <item>Starmie\'nin ortası/core’u yedi farklı renkte parlar. Parıltılı doğası sebebiyle bu pokemona “gem of the sea (denizin mücevheri)” takma adı verilmiştir.  \n
+            \nType (Tip): Water (Su), Psychic (Psişik)\n
+            \nWeaknesses (Zayıflıklar): Bug (Böcek), Dark (Karanlık), Electic (Elektrik), Ghost (Hayalet), Grass (Çimen)\n</item>
+
+    <item>Mr. Mime bir pandomim ustasıdır. Jestleri ve mimikleri izleyicileri görünmez bir şeyin geçekten var olduğuna ikna edebilir. İkna oldukları zaman görünmez şey gerçekmiş gibi var olur.  \n
+            \nType (Tip): Psychic (Psişik), Fairy (Peri)\n
+            \nWeaknesses (Zayıflıklar): Ghost (Hayalet), Steel (Çelik), Poison (Zehir)\n</item>
+    <item>Scyther görülemeyecek kadar hızlıdır. Bu hızı kollarındaki ikili tırpanların etkililiğini arttırır. Bu tırpanlar çok kesicidir. \n
+            \nType (Tip): Bug (Böcek), Flying (Uçan)\n
+            \nWeaknesses (Zayıflıklar): Rock (Kaya), Electric (Elektrik), Fire (Ateş), Flying (Uçmak), Ice (Buz)\n</item>
+    <item>Jynx ritmik hareketlerle kalçalarını sallayarak, dans eder gibi yürür. Harekerlerini görenler düşünmeden kalçalarını sallamaya başlarlar.\n
+            \nType (Tip): Ice (Buz), Psychic (Psişik)\n
+            \nWeaknesses (Zayıflıklar): Bug (Böcek), Dark (Karanlık), Fire (Ateş), Ghost (Hayalet), Rock (Kaya), Steel (Çelik)\n</item>
+    <item>Bir şimşek çaktığı zamanlarda bu pokemonun çeteleri yıldırım düşebilecek yükseklikleri ölçmek için yarışırlar. Bazı kasabalar Electabuzz’ı elektrik direği olarak kullanır. \n
+            \nType (Tip): Electric (Elektrik)\n
+            \nWeaknesses (Zayıflıklar): Ground (Toprak)\n</item>
+    <item>Magmar savaşta bütün vücudundan alevler fışkırtarak düşmanını korkutur. Bu pokemonun ateşli patlamaları çevresini tutuşturucak sıcaklık dalgaları yayar. \n
+            \nType (Tip): Fire (Ateş)\n
+            \nWeaknesses (Zayıflıklar): Ground (Toprak), Rock (Kaya), Water (Su)\n</item>
+    <item>Pinsir şaşırtıcı derecede güçlüdür. Kendinin iki katı ağırlığındaki düşmanını boynuzlarıyla kolayca kaldırabilir. Pinsir’in hareketleri soğuk ortamlarda halsizleşir.  \n
+            \nType (Tip): Bug (Böcek)\n
+            \nWeaknesses (Zayıflıklar): Fire (Ateş), Flying (Uçmak), Rock (Kaya)\n</item>
+    <item>Bu pokemon etrafa sataşmadan duramaz. Eğer savaşacağı bir düşman yoksa kalın ağaçlara saldırıp onları devirerek enerjisini atar.  \n
+            \nType (Tip): Normal (Normal)\n
+            \nWeaknesses (Zayıflıklar): Fighting (Savaşmak)\n</item>
+    <item>Magikarp yalnızca suya düşmek ve su sıçratmaya yarayan işlevsiz bir pokemondur.  \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflıklar): Electric (Elektrik), Grass (Çimen)\n
+            \nEvolution (Evrimleşmiş Hali): Gyarados\n</item>
+    <item>Magikarp Gyarados’a dönüştüğünde beyin hücreleri yapısal bir değişime uğrar. Bu değişimin bu pokemonun vahşi doğası gereği olduğu söylenir. \n
+            \nType (Tip): Water (Su), Flying (Uçan)\n
+            \nWeaknesses (Zayıflıklar): Electric (Elektrik), Rock (Kaya)\n</item>
+    <item>Lapras’ın nesli tükenmek üzeredir. Bu pokemon şarkı söyleyerek kendi türünden kalan az sayıdaki pokemonları arar. \n
+            \nType (Tip): Water (Su), Ice (Buz)\n
+            \nWeaknesses (Zayıflıklar): Electric (Elektrik), Fighting (Savaşmak), Grass (Çimen), Rock (Kaya)\n</item>
+    <item>Ditto kendi hücre yapısını çekil değiştirmek üzere değiştirir. Kendini dönüştürmek istediği şeye hafızasından ulaştığı için detaylarda yanlışlık yapar.  \n
+            \nType (Tip): Normal (Normal)\n
+            \nWeaknesses (Zayıflıklar): Fighting (Savaşmak)\n</item>
+    <item>Eevee’ın istikrarsız genetik makyajı yaşadığı çevreye göre mutasyona uğrar. Bazı taşlardan yayılan radyasyon bu pokemonun evrimleşmesine yol açar.\n
+            \nType (Tip): Normal (Normal)\n
+            \nWeaknesses (Zayıflıklar): Fighting (Savaşmak)\n
+            \nEvolution (Evrimleşmiş Hali): Vaporeon, Jolteon, Flareon</item>
+    <item>Vaporeon birkaç mutasyona uğraması sonucu sualtında yaşamasını sağlayacak solungaç ve yüzgeçlere sahip olmuştur. Bu pokemon özgürce suyu kontrol edebilir. \n
+            \nType (Tip): Water (Su)\n
+            \nWeaknesses (Zayıflıklar): Electric (Elektrik), Grass (Çimen)\n</item>
+    <item>Jolteon\'un hücreleri düşük dozda enerji üretir. Bu güç kürkünün statik elektriğiyle artar ve pokemonun yıldırım düşürebilmesine yol açar. Kürkü elekrik yüklü iğnelerden oluşmuştur.  \n
+            \nType (Tip): Electric (Elektrik)\n
+            \nWeaknesses (Zayıflıklar): Ground (Toprak)\n</item>
+    <item>Flareon\'un pofuduk kürkünün işlevi ısıyı dışarı vermektir. Bu sayede vücudu aşırı ısınmaz. Bu pokemonun vucüdu 1650 dereceye (fahrenheit) kadar çıkabilir.\n
+            \nType (Tip): Fire (Ateş)\n
+            \nWeaknesses (Zayıflıklar): Ground (Toprak), Rock (Kaya), Water (Su)\n</item>
+
+</string-array>
+
 
 
 </resources>

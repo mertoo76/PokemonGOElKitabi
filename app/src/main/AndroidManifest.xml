@@ -29,21 +29,21 @@
         </activity>
         <activity
             android:name="mert.pokemongoelkitabi.mert.pokemongoelkitabi.kurulumActivity"
-            android:label="Kurulum"
+            android:label="@string/title_activity_kurulum"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
         <activity
             android:name="mert.pokemongoelkitabi.mert.pokemongoelkitabi.Oyun"
-            android:label="Nasıl Oynanır"
+            android:label="@string/title_activity_oyun"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="mert.pokemongoelkitabi.mert.pokemongoelkitabi.Terimler"
-            android:label="Terimler Sözlüğü"
+            android:label="@string/title_activity_terimler"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="mert.pokemongoelkitabi.mert.pokemongoelkitabi.PokemonActiviy"
-            android:label="Pokedex"
+            android:label="@string/title_activity_pokemon_activiy"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="mert.pokemongoelkitabi.mert.pokemongoelkitabi.Bilgi">
             <meta-data

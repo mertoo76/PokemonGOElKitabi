@@ -216,8 +216,12 @@ public class PokemonActiviy extends AppCompatActivity
 
 
             Intent i = new Intent(getApplicationContext(),Bilgi.class);
-        yazi ya= new yazi();
-            String yolla =ya.getBilgi(position);
+
+
+            String[] array = new String[200];
+            array= getResources().getStringArray(R.array.bilgi);
+
+
             // bilgi ekranında pokem fotorafını görmek için position bilgisini yolluyorum positiona göre fotoyu Bilgi.java dosyasında seçiyorum
             editor1.putInt("position",position);
             editor1.commit();
@@ -231,7 +235,9 @@ public class PokemonActiviy extends AppCompatActivity
 
 
             // pokemon bilgilerini yolluyorum.
-            editor.putString("bilgi",yolla);
+
+            String x1 = array[position];
+           editor.putString("bilgi",x1);
             editor.commit();
 
 

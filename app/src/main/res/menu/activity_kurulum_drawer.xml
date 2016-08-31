@@ -3,23 +3,23 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/kurulum"
-            android:title="Kurulum"
-            android:icon="@mipmap/ic_kullanim"
-            />
+        android:id="@+id/kurulum"
+        android:title="@string/title_activity_kurulum"
+        android:icon="@mipmap/ic_kullanim"
+        />
         <item
             android:id="@+id/oyun"
             android:icon="@mipmap/ic_fare"
-            android:title="Nasıl Oynanır" />
+            android:title="@string/title_activity_oyun" />
         <item
             android:id="@+id/pokemon"
             android:title="Pokedex"
-            android:icon="@mipmap/ic_pokemoni"
+            android:icon="@mipmap/ic_pokemon"
             />
         <item
             android:id="@+id/terim"
             android:icon="@mipmap/ic_terim"
-            android:title="Terim Sözlüğü" />
+            android:title="@string/title_activity_terimler" />
     </group>
 
 

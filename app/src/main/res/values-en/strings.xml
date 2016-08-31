@@ -1,0 +1,566 @@
+<resources>
+    <string name="app_name">Pokedroid</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dil">Choose Language:</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kurulum">Setup</string>
+    <string name="title_activity_oyun">How To Play</string>
+    <string name="title_activity_terimler">Dictionary Of Terms</string>
+    <string name="title_activity_pokemon_activiy">Pokedex</string>
+
+    <string name="kurulumbir" formatted="false">You have to dowload APK file in order to dowload game for your android phone.you can dowload this file and move to your phone with usb or you can only dowload your phone below links. You have to click like APKPure.com  apk website and dowload 58.1 MB size of Pokemon GO on your computer. Then you can use it by move this file on your phone. \n\n  \t Both ways you have to sure that your phone allowed to dowload for foreign sources. İn order to do that use this steps; "Settings" -> "Security" -> "Unknown Sources". When you open Unknown Sources, you can dowload file and use it. İt is not problem to close this options when you setup the game. There are a few websites that you can dowload APK file. Here some of the links that directly dowload your phone:   \n  -https://apkpure.com/pok%C3%A9mon-go/com.nianticlabs.pokemongo\n  -http://www.mediafire.com/download/ic5d4sbdxx3682r/com.nianticlabs.pokemongo_0.29.2.apk\n\n
+Note: app creators warn that some APKs might harm your phone.</string>
+    <string name="kurulumiki">  \t\t1)        In the settings select iTunes and Appstore, click \"show apple ID\".  \n\n \t\t2)  There are countries/regions in this screen, pick one official for Pokemon GO like New Zeland or Australia \n\n        \t\t3)  Dowload the game.</string>
+    <string name="kurulumuc">  \t\t1) Open that link http://ios.hipstore.mobi/app/Pokemon-GO/1000007852 on your safari browser. \n\n   \t\t2) Click \"dowload now\" and choose IOS 7-8-9.\n\n       \t\t3) When you see this alert \"app.rezcdn.com, \'Hipsore\' wants dowload\" click \'dowload\' and move on. \n\n   \t\t4)  Dowload app which has H icon.\n\n   \t\t5)  When you dowload app, you will see this alert \'untrustable institutional developers\'. pass this alert and do that steps. open Settings-> General -> Device Management and click "Taz Trading" than click \'Trust\'. \n\n   \t\t6)  You can open HiP4U app.</string>
+    <string name="kurulumdort">  \t\t1) You need to exit your apple store account. App store -> Apple ID -> exit. \n\n        \t\t2)       Search "Pokemon GO" on safari and click App Store link.\n\n    \t\t3) when you see \it is not in your store\'  click \'pass\' and choose New Zeland.\n\n    \t\t4)  Open new account where you click \'sign out\'.  When you open new account on New Zeland you can use these post codes : 0112, 0110, 0310, 0520, 0410.\n\n   \t\t5)  You can choose \'None\' for payment options and fill the other whatever you want than dowload the game. You can move your real account when dowload complete.  \n\n\n\n</string>
+    <string name="oyunbaslikbir">Register</string>
+    <string name="oyunbir">                              \t\t You don\'t need to register to enter the game. You can sign in by any google account because Pokemon GO get your location on Google Maps. After you sign in with google account, After profesor\'s intro, there is charecter creations page. In this page you can choose male or female. After done choosing like below than you can change  clothes, eyes, hat, bag and be ready.</string>
+    <string name="oyunbaslikiki">Main Screen</string>
+    <string name="oyuniki">   \t\t   Bottom left corner of the screen is where you can see your character\'s name and level. When you click on it, you can see the XP you have, your pokecoins, the date that you started the game, the team you chose (after level 5) and the badges that you collected as you catched the pokemons. The the middle of the bottom of the screen is the location of the pokeball symbol which taeks you to the menu. By clicking on that symbol you can see the pokedex, shop and pokemon. Pokedex shows the pokemons in the game, the ones you caught, their features and how many times you encountered each pokemon. Shop is where you buy things in the game. Pokemon page is where you can see the pokemons that you caught and the eggs that you got. You can use your stardust to evolve your pokemons, power up or transfer it to the professor. Every time you catch a pokemon that you already got, you get 100 stardust. In order to develop a pokemon you need as much stardust or pokemon candy as the amount that is written. You can get candies when you catch pokemons, when you transfer a pokemon to the professor (1 candy) or when you hatch an egg (often multiple candies).
+                \n\n
+     \t\t   The transfer button allows you to transfer a pokemon that you have multiple of in exchange for candy.
+     \t\t   On the bottom right corner, you can see the pokemons near you. The number of steps under the pokemon can vary according to how close you are. 3 means you are far, 2 means getting closer and 1 means that the pokemon is really close.
+</string>
+
+    <string name="oyunbaslikuc">Teams</string>
+    <string name="oyunuc"> \t\t   You can choose team when you reach 5. level. There are 3 teams in the game. yellow, red and blue. \n   \tYellow Team: The team that evoking electric, they defending never loose because of their team instincts. Logo: Zapdos\n  \tBlue Team: Team Mystic leader studies Blanche pokemon evolution and says never loosing any battle. Logo: Articuno\n    \tRed Team: Team Valor, Candela thinks that real important thing are training and absolute power. Logo: Legendary Moltres</string>
+    <string name="oyunbaslikdort">Catch Pokemon</string>
+    <string name="oyundort">\t\t    You need to move when you see yourself in the map(realy walk). When appears a pokemon your phone gives vibration. You have to click pokemon that you see in map. \n  You can catch pokemon on two ways. 1. you need to open your camera and you can see pokemon on real world. This options gives game reality but it consumes too much battery.\n In second option you can click "AR" on screen and you can trun normal game mode. In this mode you play with animation. If it is evening, game too.</string>
+    <string name="oyunbaslikbes">Places</string>
+    <string name="oyunbaslikalti">Pokestops:</string>
+    <string name="oyunbes">\t\t   Pokestops, station that you can get poke balls and eggs and shown like blue circle on the map. You can go to same pokestop different time and get balls and eggs. When you far away to use pokestops, you will see this alert "this pokestop is too far away". When you enough distance pokestop\'s mark change.</string>
+    <string name="oyunbaslikyedi">Gym:</string>
+    <string name="oyunalti">\t\t   Gyms are battle arena. You can attack or defence your gym when you reach level 5 and choose Blue (Mystick), Red (Valor) or Yellow (Instinct) teams. The aim is protect your team\'s gym and capture other teams gym.</string>
+    <string name="oyunyedi"> \t\t   Defending a gym: Go to a GYM that belongs to your team. If the gym is active, there must be a "+" sign. In this case, you can enter the gym.  If it\'s not active, you must do training on the bottom right corner. In order to use the gym efficiently you must know the types and the abilities of the pokemons in the gym. You gain XP and GYM Prestige from each pokemon you defeat while you are in training. This contributes to both the level of the gym and yours. \n   \t\t    Having a high prestige means the gym is strong. This makes it harder for the other teams to conquer the gym. Training is the same as the battle with the enemy and only 1 pokemon can be used. Don\'t forget, you pokemon can be hurt while defending a gym of your team. Although gym helps your level increase, it does not increase your pokemon level. \n    \t\t    Defending a gym gains you Defender Bonus. You can collect this every 20 hours. This bonus comes as Pokecoins and Stardust.
+\n    \t\t      Conquering a gym: You can challenge another team in order to conquer their gym. Winning a gym decreases the prestige. If the prestige is low enough, the player that is from the defending team gets kicked out of the gym and you can claim your right on the gym instead. If the gym has never been conquered you can have it without any battle. \n\n\n\n</string>
+    <string name="terimbaslikbir">Achievement</string>
+    <string name="terimbir"> \t\twhen you done your mission you got badge. These badge shows your profile.</string>
+    <string name="terimiki">  \t\tIt is a strong atack type done by pokemon. You can activate that in battle, if you have enough stamina, keep touch the screen</string>
+    <string name="terimuc"> \t\tShows pokemon defence and attack quality. It shows pokemon\'s power.</string>
+    <string name="terimdort">\t\tIt is amount of damage for the pokemon to be defeated.</string>
+    <string name="terimbes"> \t\tIt means avoid attacks during the battleSavaş esnasında.</string>
+    <string name="terimalti">\t\tTo evolve pokemon. The evolving pokemon\'s CP and statistic are increase</string>
+    <string name="terimyedi">\t\tIt means experience point.It is increase and level up when we done activities like catch pokemon.</string>
+    <string name="terimsekiz">\t\tSupplies that in order to catch pokemon. You can catch pokemon if your balls finished.</string>
+    <string name="terimdokuz">\t\tIt is a blue circle at generaly central places like statue, mosque, museum. These pauses give free poke balls, poke eggs, and other staff.</string>
+    <string name="terimon">\t\tThis is pokemon currency.</string>
+    <string name="terimonbir"> \t\tThis is the place that when you reach 5. level, go to fight with other players.</string>
+    <string name="terimbaslikiki">Pokemon Eggs</string>
+    <string name="terimoniki">\t\tIt is eggs that get pokemon inside and you can find it Poke Stops. you have to get this egg in egg incubator and walk in order to crack the egg.</string>
+    <string name="terimonuc">\t\tYou can see feature in here that pokemon catch or encounter on game.</string>
+    <string name="terimondort">  \t\tIt is earned when you catch pokemon or transfer it.Each pokemons has own Candy.It is used by evolve pokemon or power up them.</string>
+    <string name="terimonbes">\t\tIt is earned when you catch pokemon or transfer it.Common for all pokemon.</string>
+    <string name="terimonalti">\t\tIt heal pokemons that fight at Gym.There are 3 types : Normal Potion heal 20 HP, Super Potion heal 50 HP, Hyper Potion heal 200 HP.</string>
+    <string name="terimonyedi">\t\tIt revive pokemon that fall at battle.You can find it Poke Stop.</string>
+    <string name="terimonsekiz">\t\tIt increase posibility of finding pokemon. You can buy it with PokeCoins.</string>
+    <string name="terimondokuz">\t\tIt is a fruit that increase posibility to catch pokemon that hardly captured. </string>
+    <string name="terimyirmi"> \t\tIt is a device that prepare eggs to break. In order to do that you have to walk.You can used for only one egg at same time.You can find different egg incubator when you level up and you can used it same time. The game began with one incubator.\n\n\n\n</string>
+
+
+<string-array name="bilgi">
+    <item>  You can see bulbasaur napping. There is a seed on its back. By soaking up the sun\'s rays, the seed grows  larger.\n
+
+	    \nType : Grass, Poison\n
+            \nWeaknesses : Fire, Flying, İce, Psychic \n
+            \nEvolution : Ivysaur\n</item>
+    <item>   There is a bud on Ivysaur\' back. Its legs and trunk grow strong. If it starts spending more time lying in the sunlight, it\'s a sign that the bud will bloom into a large flower soon.\n
+            \nType : Grass, Poison \n
+            \nWeaknesses : Fire, Flying, İce, Psychic\n
+            \nEvolution : Venusaur\n</item>
+    <item>    This pokemon has flower on ıts back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower\'s aroma soothes the emotions of people.
+	        \nType: Grass, Poison\n
+            \nWeaknesses  : Fire, Flying, İce, Psychic\n</item>
+    <item>  The flame that burns on its tail is a display of its emotions. When charmender happy, the flame wavers. If the Pokémon becomes enraged, the flame burns fiercely.
+
+	        \nType : Fire\n
+            \nWeaknesses : Ground, Rock, Water \n
+
+        \nEvolution :Charmeleon
+</item>
+    <item> Charmeleon destroy its enemies by using its sharp claws. charmeleon got mad when it see enemy. In this situation the flame at its tale flares with bluish white color.\n
+
+	    \nType :Fire \n
+            \nWeaknesses : Ground, Rock, Water\n
+            \nEvolution :Charizard\n</item>
+    <item> Charizard search his enemies by flying. It has a strong flame on its breath, but ıt never use this flame for weak opponents.\n
+            \nType : Fire, Flying \n
+            \nWeaknesses : Rock , Electric , Water\n</item>
+    <item>  Squirtle\'s shell is not only used for protection. The shell\'s rounded shape and the grooves on its surface help minimize resistance in water and swimming his high limit.\n
+            \nType : Water  \n
+            \nWeaknesses : Electric, Grass\n
+            \nEvolution : Wartortle\n</item>
+    <item>  Its tail is large.Wartortle got older when The tail becomes increasingly deeper in color. The scratches on its shell are evidence of this Pokémon\'s toughness as a battler.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n
+            \nEvolution : Blastoise\n</item>
+    <item>   Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.\n
+	        \nType : Water\n
+            \nWeaknesses : Electric, Grass\n
+</item>
+    <item> Carepie is a glutton pokemon. It can be eat huge leaf. It releases a very strong smell from its antenna.\n
+
+            \nType : Bug (Böcek)\n
+            \nWeaknesses : Fire, Flying, Rock\n
+            \nEvolution : Metapod\n</item>
+    <item>Its shell is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.\n
+	        \nType : Bug \n
+            \nWeaknesses : Fire, Flying, Rock\n
+            \nEvolution : Butterfree\n</item>
+    <item>  Butterfree has a  ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.\n
+            \nType : Bug, Flying\n
+            \nWeaknesses : Rock, Electric, Fire, Flying, İce \n
+</item>
+    <item>  Weedle has an extremely  sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis .\n
+
+            \nType : Bug, Poison \n
+            \nWeaknesses : Fire, Flying, Psychic, Rock \n
+            \nEvolution : Kakuna\n </item>
+    <item> Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.\n
+            \nType : Bug, Poison\n
+            \nWeaknesses : Fire, Flying, Psychic, Rock\n
+            \nEvolution : Beedril\n</item>
+    <item> Beedrill is  territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.\n
+	        \nType : Bug, Poison \n
+            \nWeaknesse : Fire, Flying, Psychic, Rock \n</item>
+    <item>  Pidgey\'s sence of direction has developed. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Electric, İce (Buz), Rock \n
+            \nEvolution : Pidgeotto\n</item>
+    <item>   Pidgeotto claims a large area as its own territory. This Pokémon flies around, controling its territory. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Electric, İce, Rock \n
+            \nEvolution : Pidgeot\n</item>
+    <item>   This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Electric, İce, Rock\n</item>
+    <item>   Rattata is very cautious . Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n
+            \nEvolution : Raticate\n</item>
+    <item>  Its sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n
+</item>
+    <item> Spearow has a very loud shouted that can be heard over half a mile away.if it is high, it is a sign that they are warning each other of danger.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Electric, İce, Rock \n
+            \nEvolution : Fearow\n</item>
+    <item>Fearow is recognized by its long neck and elongated beak. They are  shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Electric, İce, Rock \n</item>
+    <item> Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground, Psychic\n
+            \nEvolution : Arbok\n</item>
+    <item>  This Pokémon is terrifically strong in order to constrict things with its body. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground, Psychic \n</item>
+    <item> Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it\'s evidence that this Pokémon mistook the intensity of its charge.\n
+            \nType : Electric \n
+            \nWeaknesses : Ground \n
+            \nEvolution : Raichu\n</item>
+    <item>  If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon\'s nest.\n
+            \nType : Electric \n
+            \nWeaknesses : Ground \n</item>
+    <item> Sandshrew\'s body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies.\n
+            \nType : Ground \n
+            \nWeaknesses : Grass, İce, Water \n
+            \nEvolution : Sandslash\n</item>
+    <item> Its body is covered by tough spikes. Once a year, the old spikes fall out, to be replaced with new spikes that grow out from beneath the old ones.\n
+            \nType : Ground \n
+            \nWeaknesses : Grass, İce, Water\n</item>
+    <item>  It has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground, Psychic\n
+            \nEvolution : Nidorina\n</item>
+    <item>  When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground, Psychic \n
+            \nEvolution : Nidoqueen\n</item>
+    <item> Nidoqueen\'s body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.\n
+            \nType : Poison, Ground \n
+            \nWeaknesses : Ground, Ice, Psychic, Water \n
+            </item>
+    <item>It has developed muscles for moving its ears. Because of that the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon\'s notice.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground, Psychic \n
+            \nEvolution : Nidorino\n</item>
+    <item> Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground , Psychic \n
+            \nEvolution : Nidoking\n</item>
+    <item>  It thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.\n
+            \nType : Poison, Ground \n
+            \nWeaknesses : Ground, İce, Psychic, Water \n</item>
+    <item> On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.\n
+            \nType : Fairy \n
+            \nWeaknesses : Steel, Poison \n
+            \nEvolution : Clefable\n</item>
+    <item>Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.\n
+            \nType : Fairy \n
+            \nWeaknesses : Steel, Poison \n</item>
+    <item>At the time of its birth, Vulpix has one white tail. The tail separates into six if this Pokémon receives plenty of love from its Trainer. The six tails become magnificently curled.\n
+            \nType : Fire \n
+            \nWeaknesses : Ground, Rock, Water \n
+            \nEvolution : Ninetales\n</item>
+    <item> Ninetales casts a sinister light from its bright red eyes to gain total control over its foe\'s mind. This Pokémon is said to live for a thousand years.\n
+            \nType : Fire \n
+            \nWeaknesses : Ground, Rock, Water \n
+</item>
+    <item> Jigglypuff\'s vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.\n
+
+            \nType : Normal, Fairy \n
+            \nWeaknesses : Steel, Poison \n
+            \nEvolution : Wigglytuff\n</item>
+    <item> Wigglytuff has large eyes. The surfaces of its eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon\'s eyes, it is quickly washed away.\n
+            \nType : Normal, Fairy\n
+            \nWeaknesses : Steel, Poison\n
+</item>
+    <item>Zubat remains quietly unmoving in a dark spot during the bright daylight hours. It does so because prolonged exposure to the sun causes its body to become slightly burned.\n
+            \nType : Poison, Flying \n
+            \nWeaknesses : Electric, Rock, Psychic, İce \n
+            \nEvolution : Golbat\n</item>
+    <item>Loves to drink the blood of living things. It is particularly active in the pitch black of night. This Pokémon flits around in the night skies, seeking fresh blood.\n
+            \nType : Poison, Flying \n
+            \nWeaknesses : Electric, Rock, Psychic, İce \n</item>
+    <item>During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become.\n
+            \nType : Grass, Poison \n
+            \nWeaknesses : Fire, Flying, İce, Psychic \n
+            \nEvolution : Gloom\n
+</item>
+
+    <item>  Releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this Pokémon is feeling calm and secure, it does not release its usual stinky aroma.\n
+            \nType : Grass, Poison \n
+            \nWeaknesses : Fire, Flying, İce, Psychic \n
+            \nEvolution : Vileplume\n</item>
+    <item>Vileplume\'s toxic pollen triggers atrocious allergy attacks. That\'s why it is advisable never to approach any attractive flowers in a jungle, however pretty they may be.\n
+            \nType : Grass, Poison \n
+            \nWeaknesses : Fire, Flying, İce, Psychic \n</item>
+    <item> Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.\n
+            \nType (Tip) : Bug (Böcek), Grass (Çimen)\n
+            \nWeaknesses (Zayıflık) : Fire (Ateş), Flying (Uçan), Bug (Böcek), İce (Buz), Poison (Zehir), Rock (Kaya)\n
+            \nEvolution (Evrimleşmiş Hali) : Parasect\n</item>
+    <item> Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.\n
+            \nType : Bug, Grass \n
+            \nWeaknesses : Fire, Flying, Bug, İce, Poison, Rock\n</item>
+    <item> This pokemon is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.\n
+            \nType : Bug, Poison \n
+            \nWeaknesses : Fire, Flying, Psychic, Rock \n
+            \nEvolution : Venomoth\n</item>
+    <item>  It is nocturnal, it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.\n
+            \nType : Bug, Poison \n
+            \nWeaknesses : Fire, Flying, Psychic, Rock \n</item>
+    <item>  Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.\n
+            \nType : Ground \n
+            \nWeaknesses : Grass, İce, Water \n
+            \nEvolution : Dugtrio\n</item>
+    <item>  Dugtrio are actually triplets that emerged from one body. Each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.\n
+            \nType  : Ground \n
+            \nWeaknesses : Grass, İce, Water \n</item>
+    <item>Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. This Pokémon loves shiny coins that glitter with light.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n
+            \nEvolution : Persian\n</item>
+    <item> Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon\'s surrounding vicinity. It becomes docile if grabbed by the whiskers.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n</item>
+    <item>  Psyduck uses a mysterious power. When it does so, this Pokémon generates brain waves that are supposedly only seen in sleepers. This discovery spurred controversy among scholars.\n
+            \nType : Water \n
+            \nWeaknesses : Electric , Grass \n
+            \nEvolution : Golduck\n</item>
+    <item> The webbed flippers on its forelegs and hind legs and the streamlined body of Golduck give it frightening speed.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass\n</item>
+    <item> When Mankey starts shaking and its nasal breathing turns rough, it\'s a sure sign that it is becoming angry. Because it goes into a towering rage almost instantly, it is impossible for anyone to flee its wrath.\n
+            \nType : Fighting \n
+            \nWeaknesses : Flying, Psychic, Fairy \n
+            \nEvolution : Primeape\n</item>
+    <item>When Primeape becomes angry, its blood circulation is boosted, its muscles are made even stronger. However, it also becomes much less intelligent at the same time.\n
+            \nType : Fighting \n
+            \nWeaknesses : Flying, Psychic, Fairy \n</item>
+    <item> Growlithe has a superb sense of smell. Once it smells anything, this Pokémon won\'t forget the scent. It uses its advanced olfactory sense to determine the emotions of other living things.\n
+            \nType : Fire \n
+            \nWeaknesses : Ground, Rock, Water \n
+            \nEvolution : Arcanine\n</item>
+    <item>Arcanine has high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this Pokémon\'s body is its source of power.\n
+            \nLegendary Pokemon \n
+            \nType : Fire \n
+            \nWeaknesses: Ground, Rock, Water\n</item>
+    <item>  Poliwag has a very thin skin. This Pokémon\'s spiral innards right through the skin. Despite its thinness, however, the skin is also very flexible. Even sharp fangs bounce right off it.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n
+            \nEvolution : Poliwhirl\n</item>
+    <item>The surface of its body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n
+            \nEvolution : Poliwrath\n</item>
+    <item>Poliwrath\'s highly developed, brawny muscles never grow fatigued. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.\n
+            \nType : Water, Fighting\n
+            \nWeaknesses : Electric, Flying, Grass, Psychic, Fairy \n</item>
+    <item> Abra sleeps for eighteen hours a day. However, it can sense the presence of foes even while it is sleeping. In such a situation, this Pokémon immediately teleports to safety.\n
+            \nType : Psychic \n
+            \nWeaknesses : Bug, Dark, Ghost \n
+            \nEvolution : Kadabra\n</item>
+    <item>Kadabra emits a peculiar alpha wave if it develops a headache. Only those people with a particularly strong psyche can hope to become a Trainer of this Pokémon.\n
+            \nType : Psychic \n
+            \nWeaknesses : Bug, Dark, Ghost \n
+            \nEvolution : Alakazam\n</item>
+    <item>Alakazam\'s brain continually grows, making its head far too heavy to support with its neck. This Pokémon holds its head up using its psychokinetic power instead.\n
+            \nType : Psychic \n
+            \nWeaknesses : Bug, Dark, Ghost \n</item>
+    <item>Machop\'s muscles are special. They never get sore no matter how much they are used in exercise.\n
+            \nType : Fighting \n
+            \nWeaknesses : Flying, Psychic, Fairy\n
+            \nEvolution : Machoke\n</item>
+    <item>Machoke\'s thoroughly toned muscles possess the hardness of steel. This Pokémon has so much strength.\n
+            \nType (Tip) : Fighting (Savaşmak)\n
+            \nWeaknesses (Zayıflık) : Flying (Uçan), Psychic (Psişik), Fairy (Peri)\n
+            \nEvolution (Evrimleşmiş Hali) : Machamp\n</item>
+    <item>Machamp has the power to hurl anything aside. However, trying to do any work requiring care and dexterity causes its arms to get tangled. This Pokémon tends to leap into action before it thinks.\n
+            \nType : Fighting \n
+            \nWeaknesses : Flying, Psychic, Fairy \n</item>
+    <item>Bellsprout\'s thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron.\n
+            \nType : Grass, Poison \n
+            \nWeaknesses : Fire, Flying, İce, Psychic \n
+            \nEvolution : Weepinbell\n</item>
+    <item> Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.\n
+            \nType : Grass, Poison \n
+            \nWeaknesses : Fire, Flying, İce, Psychic\n
+            \nEvolution : Victreebel\n
+</item>
+    <item> Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.\n
+            \nType : Grass, Poison \n
+            \nWeaknesses : Fire , Flying , İce , Psychic \n</item>
+
+    <item>Tentacool\'s body is largely composed of water. If it is removed from the sea, it dries up like parchment. If this Pokémon happens to become dehydrated, put it back into the sea.\n
+            \nType : Water, Poison \n
+            \nWeaknesses : Electric, Ground, Psychic \n
+            \nEvolution : Tentacruel\n</item>
+    <item>Tentacruel has large red orbs on its head. The orbs glow before lashing the vicinity with a harsh ultrasonic blast. This Pokémon\'s outburst creates rough waves around it.\n
+            \nType : Water, Poison \n
+            \nWeaknesses : Electric, Ground, Psychic \n</item>
+    <item>The longer a Geodude lives, the more its edges are chipped and worn away, making it more rounded in appearance. However, this Pokémon\'s heart will remain hard, craggy, and rough always.\n
+            \nType : Rock, Ground \n
+            \nWeaknesses : Grass, Water, Fighting, Ground, Ice, Steel \n
+            \nEvolution : Graveler\n</item>
+    <item>Graveler grows by feeding on rocks. Apparently, it prefers to eat rocks that are covered in moss. \n
+            \nType : Rock, Ground \n
+            \nWeaknesses : Grass, Water, Fighting, Ground, Ice, Steel\n
+            \nEvolution  : Golem\n
+</item>
+    <item>Golem live up on mountains. If there is a large earthquake, these Pokémon will come rolling down off the mountains en masse to the foothills below.\n
+            \nType : Rock, Ground \n
+            \nWeaknesses : Grass, Water, Fighting, Ground, Ice, Steel \n</item>
+    <item> Ponyta is very weak at birth. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.\n
+            \nType : Fire \n
+            \nWeaknesses : Ground, Rock, Water \n
+            \nEvolution : Rapidash\n</item>
+    <item>Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns angry, its fiery manes flare and blaze as it gallops its way up to 150 mph.\n
+            \nType : Fire\n
+            \nWeaknesses : Ground, Rock, Water\n</item>
+    <item>Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. This Pokémon often forgets what it\'s doing and often spends entire days just loafing at water\'s edge.\n
+            \nType : Water, Psychic \n
+            \nWeaknesses : Bug, Dark, Electric, Ghost, Grass \n
+            \nEvolution : Slowbro\n</item>
+    <item>Slowbro\'s tail has a Shellder firmly attached with a bite. As a result, the tail can\'t be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.\n
+            \nType : Water, Psychic \n
+            \nWeaknesses : Bug, Dark, Electric, Ghost, Grass \n</item>
+    <item> Magnemite attaches itself to power lines to feed on electricity. \n
+            \nType: Electric, Steel \n
+            \nWeaknesses : Ground, Fire, Fighting \n
+            \nEvolution : Magneton\n</item>
+    <item> Magneton emits a powerful magnetic force that is fatal to mechanical devices. \n
+            \nType : Electric, Steel \n
+            \nWeaknesses : Ground, Fire, Fighting \n
+            \nEvolution  : Magnezone\n</item>
+    <item> Farfetch\'d is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks and this Pokémon has been known to fight with others over stalks.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Elektric, Ice, Rock \n</item>
+    <item>Doduo\'s two heads never sleep at the same time. Its two heads take turns sleeping, so one head can always keep watch for enemies while the other one sleeps.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Elektric, Ice, Rock \n
+            \nEvolution : Dodrio\n</item>
+    <item> Watch out if Dodrio\'s three heads are looking in three separate directions. It\'s a sure sign that it is on its guard. Don\'t go near this Pokémon if it\'s being wary—it may decide to peck you.\n
+            \nType : Normal, Flying \n
+            \nWeaknesses : Elektric, Ice, Rock \n</item>
+    <item>Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.\n
+            \nType : Water \n
+            \nWeaknesses : Elektric, Grass \n
+            \nEvolution : Dewgong\n</item>
+    <item>Dewgong loves to snooze on bitterly cold ice. \n
+            \nType : Water, Ice \n
+            \nWeaknesses : Elektric, Fighting, Grass, Rock \n</item>
+    <item>Grimer\'s sludgy and rubbery body can be forced through any opening, however small it may be. This Pokémon enters sewer pipes to drink filthy wastewater.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground, Psychic \n
+            \nEvolution  : Muk\n</item>
+    <item>From Muk\'s body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon\'s body fluid can turn a pool stagnant and rancid.\n
+            \nType : Poison \n
+            \nWeaknesses : Ground, Psychic \n</item>
+    <item>At night, this Pokémon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n
+            \nEvolution : Colyster\n</item>
+    <item> Cloyster is capable of swimming in the sea by swallowing water, then jetting it out toward the rear. This Pokémon shoots spikes from its shell using the same system.\n
+            \nType : Water, Ice \n
+            \nWeaknesses : Electric, Fighting, Grass, Rock \n</item>
+    <item> Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pokémon cluster under the eaves of houses to escape the ravages of wind.\n
+            \nType : Ghost, Poison \n
+            \nWeaknesses : Dark, Ghost, Psychic \n
+            \nEvolution : Haunter\n</item>
+    <item>Haunter is a dangerous Pokémon. If one beckons you while floating in darkness, you must never approach it. This Pokémon will try to lick you with its tongue and steal your life away.\n
+            \nType : Ghost, Poison \n
+            \nWeaknesses : Dark, Ghost, Psychic \n
+            \nEvolution : Gengar\n</item>
+    <item> Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow.\n
+            \nType : Ghost, Poison \n
+            \nWeaknesses : Dark, Ghost, Psychic \n</item>
+    <item>Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.\n
+            \nType : Rock, Ground \n
+            \nWeaknesses : Grass, Water, Fighting, Ground, Ice, Steel \n</item>
+    <item> If your nose becomes itchy while you are sleeping, it\'s a sure sign that one of these Pokémon is standing above your pillow and trying to eat your dream through your nostrils.\n
+            \nType : Psychic \n
+            \nWeaknesses : Bug, Dark, Ghost \n
+            \nEvolution : Hypno\n</item>
+    <item> Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum.\n
+            \nType : Psychic \n
+            \nWeaknesses : Bug, Dark, Ghost \n</item>
+    <item> Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n
+            \nEvolution : Kingler\n</item>
+    <item> Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n</item>
+    <item> Voltorb was first sighted at a company that manufactures Poké Balls. The link between that sighting and the fact that this Pokémon looks very similar to a Poké Ball remains a mystery.\n
+            \nType : Electric \n
+            \nWeaknesses : Ground \n
+            \nEvolution : Electrode \n</item>
+    <item>  Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity.\n
+            \nType : Electric \n
+            \nWeaknesses : Ground \n</item>
+    <item> This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.\n
+            \nType : Grass, Psychic \n
+            \nWeaknesses : Bug, Dark , Fire, Flying, Ghost, Ice, Poison\n
+            \nEvolution : Exeggutor\n</item>
+    <item>Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.\n
+            \nType : Grass, Psychic \n
+            \nWeaknesses : Bug, Dark, Fire, Flying, Ghost, Ice, Poison \n</item>
+    <item>Cubone pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull the Pokémon wears are made by the tears it sheds.\n
+            \nType : Ground \n
+            \nWeaknesses : Grass, Ice, Water \n
+            \nEvolution : Marowak \n</item>
+    <item> Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon\'s tempered and hardened spirit is not easily broken.\n
+            \nType : Ground \n
+            \nWeaknesses : Grass, Ice, Water \n</item>
+    <item>Hitmonlee\'s legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.\n
+            \nType : Fighting\n
+            \nWeaknesses :Flying, Psychic, Fairy \n
+            \nEvolution : Hitmonchan\n</item>
+    <item> This Pokémon has an indomitable spirit and will never give up in the face of adversity.\n
+            \nType : Fighting \n
+            \nWeaknesses : Flying, Psychic, Fairy \n</item>
+    <item>Whenever Lickitung comes across something new, it will unfailingly give it a lick. It does so because it memorizes things by texture and by taste. It is somewhat put off by sour things.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n</item>
+    <item>If Koffing becomes agitated, it raises the toxicity of its internal gases and jets them out from all over its body. This Pokémon may also overinflate its round body, then explode.\n
+            \nType : Poison \n
+            \nWeaknesses : Psychic \n
+            \nEvolution : Weezing\n</item>
+    <item>Weezing loves the gases given off by rotted kitchen garbage. This Pokémon will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash.\n
+            \nType : Poison \n
+            \nWeaknesses : Psychic \n</item>
+    <item>Rhyhorn runs in a straight line, smashing everything in its path. It is not bothered even if it rushes headlong into a block of steel. This Pokémon may feel some pain from the collision the next day, however.\n
+            \nType : Ground, Rock \n
+            \nWeaknesses : Grass , Water, Fighting, Ground, Ice, Steel\n
+            \nEvolution : Rhydon\n</item>
+    <item>Rhydon\'s horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. \n
+            \nType : Ground, Rock \n
+            \nWeaknesses : Grass, Water, Fighting, Ground, Ice, Steel \n</item>
+    <item>Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n</item>
+    <item>Tangela\'s vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.\n
+            \nType : Grass \n
+            \nWeaknesses : Bug, Fire, Flying, Ice, Poison \n
+</item>
+    <item>If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pokémon\'s parent is sure to be in the area, and it will become violently enraged at you.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n</item>
+    <item>Horsea eats small insects and moss off of rocks. If the ocean current turns fast, this Pokémon anchors itself by wrapping its tail around rocks or coral to prevent being washed away.\n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n
+            \nEvolution : Seadra\n</item>
+    <item>Seadra sleeps after wriggling itself between the branches of coral. Those trying to harvest coral are occasionally stung by this Pokémon\'s poison barbs if they fail to notice it.\n
+            \nType : Water \n
+            \nWeaknesses : Electic, Grass \n</item>
+    <item>Goldeen is a very beautiful Pokémon but it could ram you powerfully with its horn.\n
+            \nType : Water \n
+            \nWeaknesses : Electic, Grass \n
+            \nEvolution : Seaking\n</item>
+    <item>In the autumn, Seaking males can be seen performing courtship dances in riverbeds to woo females. During this season, this Pokémon\'s body coloration is at its most beautiful.\n
+            \nType : Water \n
+            \nWeaknesses : Electic , Grass \n</item>
+    <item>Staryu\'s center section has an organ called the core that shines bright red. \n
+            \nType : Water \n
+            \nWeaknesses : Electic, Grass \n
+            \nEvolution : Starmie\n</item>
+    <item>Starmie\'s center section—the core—glows brightly in seven colors. Because of its luminous nature, this Pokémon has been given the nickname “the gem of the sea."\n
+            \nType : Water, Psychic \n
+            \nWeaknesses : Bug, Dark, Electic, Ghost, Grass \n</item>
+
+    <item>Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.\n
+            \nType : Psychic, Fairy \n
+            \nWeaknesses : Ghost, Steel, Poison \n</item>
+    <item>Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon\'s scythes are so effective. \n
+            \nType : Bug, Flying\n
+            \nWeaknesses : Rock, Electric, Fire, Flying, Ice\n</item>
+    <item>Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing.\n
+            \nType : Ice, Psychic \n
+            \nWeaknesses : Bug, Dark, Fire, Ghost, Rock, Steel \n</item>
+    <item>When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods.\n
+            \nType : Electric \n
+            \nWeaknesses : Ground \n</item>
+    <item>In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon\'s fiery bursts create heat waves that ignite grass and trees in its surroundings.\n
+            \nType : Fire \n
+            \nWeaknesses : Ground, Rock, Water \n</item>
+    <item>Pinsir is astoundingly strong. It can grip a foe weighing twice its weight in its horns and easily lift it. This Pokémon\'s movements turn sluggish in cold places.\n
+            \nType : Bug \n
+            \nWeaknesses : Fire, Flying, Rock \n</item>
+    <item>This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n</item>
+    <item>Magikarp is a pathetic excuse for a Pokémon that is only capable of flopping and splashing. \n
+            \nType : Water \n
+            \nWeaknesses : Electric, Grass \n
+            \nEvolution : Gyarados\n</item>
+    <item>When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon\'s wildly violent nature.\n
+            \nType : Water, Flying \n
+            \nWeaknesses : Electric, Rock \n</item>
+    <item>People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.\n
+            \nType : Water, Ice \n
+            \nWeaknesses : Electric, Fighting, Grass, Rock \n</item>
+    <item>Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n</item>
+    <item>Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve.\n
+            \nType : Normal \n
+            \nWeaknesses : Fighting \n
+            \nEvolution : Vaporeon, Jolteon, Flareon</item>
+    <item>Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water.\n
+            \nType : Water \n
+            \nWeaknesses : Electric , Grass \n</item>
+    <item>Jolteon\'s cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.\n
+            \nType : Electric \n
+            \nWeaknesses : Ground \n</item>
+    <item>Flareon\'s fluffy fur has a functional purpose—it releases heat into the air so that its body does not get excessively hot. This Pokémon\'s body temperature can rise to a maximum of 1,650 degrees Fahrenheit.\n
+            \nType : Fire \n
+            \nWeaknesses : Ground, Rock, Water\n</item>
+
+</string-array>
+
+
+
+</resources>
